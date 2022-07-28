@@ -1,6 +1,10 @@
-*.pdf
+gh-pages/
+out/
+
+src/**/*.pdf
+src/**/*.png
+src/**/*.svg
 *.ps
 *.midi
 *.mid
 *.log
-*~
