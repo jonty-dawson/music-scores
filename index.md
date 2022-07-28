@@ -12,7 +12,7 @@ A place to share this guitar sheet music - maybe I'll add some more pieces the f
 <li>
 {% for edition in site.editions %}
 
-    <a href="{{ edition.url }}">
+    <a href="{{ site.baseurl }}{{ edition.url }}">
       {{ edition.title }}
     </a>
 
