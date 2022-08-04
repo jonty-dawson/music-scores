@@ -24,7 +24,7 @@ title: Music Scores
 description: >- # this means to ignore newlines until "baseurl:"
   Sheet music for classical guitar, using Lilypond engraving.
 baseurl: "/music-scores" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jonty-dawson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: JontyDawson
 github_username:  jonty-dawson
 copyright: Copyright © 2022 Jonty Dawson
