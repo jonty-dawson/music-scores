@@ -7,7 +7,9 @@ work_title: Prelude, Fugue and Allegro
 work_number: BWV 998
 instrument: Guitar
 original_key: E&#x266D; major
+subheading: A transcription for classical guitar in E, rather than the more usual D.
 ---
+
 
 {% include edition_content_head.md %}
 
