@@ -1,9 +1,10 @@
 ---
 layout: home
 name: bach-js-bwv998-prelude-fugue-allegro-guitar
+image: assets/images/banner-guitar-neck.jpg
 ---
 
-![](assets/images/banner-guitar-neck.jpg)
+![]({{page.image}})
 
 A place to share this guitar sheet music - maybe I'll add some more pieces the future!
 

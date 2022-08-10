@@ -8,6 +8,7 @@ work_number: BWV 998
 instrument: Guitar
 original_key: E&#x266D; major
 subheading: A transcription for classical guitar in E, rather than the more usual D.
+image: assets/preview-images/bach-js-bwv998-prelude-fugue-allegro-guitar.preview.png
 ---
 
 
