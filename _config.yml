@@ -25,6 +25,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Sheet music for classical guitar, using Lilypond engraving.
 baseurl: "/music-scores" # the subpath of your site, e.g. /blog
 url: "https://jonty-dawson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: JontyDawson
+github_username:  jonty-dawson
 copyright: Copyright © 2022 Jonty Dawson
 edition_preview_suffix: .preview.png
 edition_download_dir: assets/downloads
@@ -44,13 +46,6 @@ collections:
   editions:
     output: true
     permalink: /:collection/:name
-
-minima:
-  skin: classic
-
-  social_links:
-    twitter: JontyDawson
-    github: jonty-dawson
 
 # Exclude from processing.
 # The following items will not be processed, by default.

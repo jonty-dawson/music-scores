@@ -8,7 +8,8 @@ title: About
 <br>
 <br>
 <br>
-Website and sheet music scores:
+<br>
+Website and sheet music scores are copyright -
 
 {{site.copyright}}.
 
