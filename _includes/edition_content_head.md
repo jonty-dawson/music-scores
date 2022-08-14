@@ -1,15 +1,14 @@
 {% capture pdf_path %}{{ site.edition_download_dir }}/{{ page.name}}.pdf{% endcapture %}
 {% capture preview_path %}{{ site.edition_preview_dir }}/{{ page.name }}{{ site.edition_preview_suffix }}{% endcapture %}
 
-{{ page.subheading }}
 
-Sheet music PDF free to [download][1]{:download=""}.
+##### *{{ page.subheading }}*
+
+Sheet music [PDF free to download][1]{:download=""}.
 
 [![Preview]({{ preview_path | relative_url }})][1]
 
-
 <br>
-
 
 <table>
   <tbody>
@@ -41,8 +40,5 @@ Sheet music PDF free to [download][1]{:download=""}.
 </table>
 
 ___
-<br>
-
-
 
 [1]:{{ pdf_path | relative_url }}

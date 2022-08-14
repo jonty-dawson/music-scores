@@ -1,0 +1,24 @@
+// Placeholder to allow overriding predefined variables smoothly.
+$brand-color:           #5b7b65;
+$brand-color-light:     #d1dad4;
+$brand-color-dark:      darken($brand-color, 15%);
+
+$link-base-color:       #0645AD;
+$link-visited-color:    #0B0080;
+
+$brand-background-color: #f2efe5;
+
+
+
+
+$border-color-01:       $brand-color-light;
+$border-color-02:       lighten($brand-color, 0%);
+$border-color-03:       $brand-color-dark;
+
+$table-text-color:      lighten($text-color, 18%);
+$table-zebra-color:     lighten($brand-color-light, 12%);
+$table-header-bg-color: lighten($brand-color-light, 8%);
+$table-header-border:   $border-color-01;
+$table-border-color:    $border-color-01;
+$image-border-color:    $border-color-01;
+
