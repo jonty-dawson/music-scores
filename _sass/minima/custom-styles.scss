@@ -2,7 +2,7 @@
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
 .site-title::before {
-    background-image: url('/favicon.svg');
+    background-image: url($baseurl + '/favicon.svg');
     background-size: 100% 100%;
     background-position: CENTER LEFT;
     background-repeat: NO-REPEAT;
