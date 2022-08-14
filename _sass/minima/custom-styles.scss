@@ -1,0 +1,80 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.site-title::before {
+    background-image: url('/favicon.svg');
+    background-size: 100% 100%;
+    background-position: CENTER LEFT;
+    background-repeat: NO-REPEAT;
+    content: "";
+    display: inline-block;
+    vertical-align: text-bottom;
+    width: 32px;
+    height: 32px;
+    margin-right: $spacing-unit/2;
+}
+
+.site-title, .site-title:visited {
+    color: $brand-color-dark;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+table {
+    border: unset
+}
+
+
+div.logo-image {
+    margin: 8px;
+    padding: unset;
+}
+
+.footer-col {
+    margin: 8px;
+    &:first-child {
+        width:max-content;
+
+    }
+
+    width: fit-content;
+
+    .site-title {
+        float: none;
+    }
+    .site-title::before {
+        display: none;
+    }
+
+    a {
+        color: $brand-color-dark;
+    }
+}
+
+.site-footer, .site-header {
+    background-color: $brand-background-color;
+}
+
+.site-header {
+    border-top-color: $brand-color-light;
+}
+
+.site-footer {
+    padding-top: 15px;
+}
+
+.social-media-list li {
+    background-color: $background-color;
+}
+
+.post-content img {
+    border: $spacing-unit solid $image-border-color;
+    padding: $spacing-unit / 2;
+    width: calc(100% - (#{$spacing-unit} * 3));
+}
+
+.site-nav .page-link {
+    color: $brand-color-dark;
+}

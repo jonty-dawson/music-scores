@@ -3,25 +3,28 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">
-      <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-    </h2>
-
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <p>{{- site.description | escape -}}</p>
+      <div class="logo-image" class="footer-col">
+          <img src="{{ "/favicon.svg" | relative_url }}" width="125" height="125">
+      </div>
+      <div class="footer-col">
+        <p>
+          <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+        </p>
+        <p>{{ site.description | escape }}</p>
+        <a href="{{ site.github.repository_url }}">View source on GitHub</a>
       </div>
 
-      <div class="footer-col footer-col-2">
-        <ul class="contact-list">
-          <li class="p-name">
-            <a href="{{ site.github.repository_url }}">View on GitHub</a>
-        </ul>
-      </div>
-      <div class="footer-col footer-col-3">
-        {%- include social.html -%}
+
+      <div class="footer-col">
+
+        <div class="social-links">
+          {%- include social.html -%}
+        </div>
+
       </div>
     </div>
+
 
   </div>
 
