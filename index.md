@@ -6,7 +6,7 @@ image: assets/images/banner-guitar-neck.jpg
 
 ![]({{page.image}})
 
-A place to share this guitar sheet music - maybe I'll add some more pieces the future!
+A place to share this guitar sheet music - maybe I'll add some more pieces in the future!
 
 <p>
 <h3>

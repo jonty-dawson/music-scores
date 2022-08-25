@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "JS Bach - Prelude, Fugue and Allegro BWV 998"
+title: "JS Bach | Prelude, Fugue and Allegro BWV 998"
 name: bach-js-bwv998-prelude-fugue-allegro-guitar
 composer: Johann Sebastian Bach
 work_title: Prelude, Fugue and Allegro
