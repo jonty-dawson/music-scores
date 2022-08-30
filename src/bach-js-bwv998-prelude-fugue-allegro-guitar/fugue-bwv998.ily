@@ -276,10 +276,10 @@ upper =  \relative e' {
     e,='4 -1
     \override TextScript.staff-padding = #8
     r8
-    <\tweak font-size #-4 fs a -4 >8
+    <\single \smallNoteHead \parenthesize fs a -4 >8
     \barreBracket #-1 #-4
-    <\tweak font-size #-4 fs a -2 >
-    <\tweak font-size #-4 e gs -1 >
+    <\single \smallNoteHead \parenthesize fs a -2 >
+    <\single \smallNoteHead \parenthesize e gs -1 >
     r
     <e -0 gs -4 >
 
@@ -287,19 +287,19 @@ upper =  \relative e' {
     <e gs=' >8
     <ds -2 fs -1 >
     r
-    < \tweak font-size #-4 gs b -4>
+    < \single \smallNoteHead \parenthesize gs b -4>
     \once \set glissandoMap = #'((0 . -1) (1 . 1))
     \once \hide Fingering
-    < \tweak font-size #-4 gs b -4> \glissando
-    < \tweak font-size #-4 fs a -4>
+    < \single \smallNoteHead \parenthesize gs b -4> \glissando
+    < \single \smallNoteHead \parenthesize fs a -4>
     \set fingeringOrientations = #'(up)
     r
-    < \tweak font-size #-4 fs a -2>
+    < \single \smallNoteHead \parenthesize fs a -2>
 
     | % 27
     \once \set glissandoMap = #'((0 . -1) (1 . 1))
-    <\tweak font-size #-4 fs a=' -1>8 \glissando
-    <\tweak font-size #-4 e gs -1>
+    <\single \smallNoteHead \parenthesize fs a=' -1>8 \glissando
+    <\single \smallNoteHead \parenthesize e gs -1>
     \set fingeringOrientations = #'(left up)
     \barreSpannerText #"II" #6
     fs \rest \startTextSpan
@@ -1731,10 +1731,12 @@ lower =  \relative e {
     gs -2
     \once \override Fingering.add-stem-support = ##f
     \once \override StringNumber.padding = #2.0
+    \once \override Fingering.padding = #0.25
     as _\4 -2
 
     | % 11
     \once \override Fingering.add-stem-support = ##f
+    \once \override Fingering.padding = #0.25
     b= 4 -0
     \override NoteColumn.ignore-collision = ##t
     b, -2

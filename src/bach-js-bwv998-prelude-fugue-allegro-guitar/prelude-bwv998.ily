@@ -62,11 +62,11 @@ upper =  \relative e'' {
     b -0
     ds -4
     fs -2
-    \once \override Fingering.padding = #1.5
+    \once \override Fingering.padding = #2.0
     <b \fingeringShift #UP -4> \glissando
     \once \override NoteColumn.glissando-skip = ##t
     fs -3
-    \once \override Fingering.padding = #1.5
+    \once \override Fingering.padding = #2.0
     <gs -4>
 
     | % 5

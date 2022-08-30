@@ -731,11 +731,11 @@ upper =  \relative e' {
     | % 78
     e,=' -2
     gs -3
-    \once \override Fingering.padding = #'1.5
+    \once \override Fingering.padding = #'2.0
     <a -4> \glissando
     \once \override NoteColumn.glissando-skip = ##t
     e -0
-    \once \override Fingering.padding = #'2.0
+    \once \override Fingering.padding = #'2.5
     <b' -4>
     e,
 
@@ -743,13 +743,13 @@ upper =  \relative e' {
     \barreBracket #0 #-9
     cs'='' -3
     b -1
-    \once \override Fingering.padding = #'1.0
+    \once \override Fingering.padding = #'1.5
     <a -2> \glissando
     \once \override NoteColumn.glissando-skip = ##t
-    \once \override Fingering.padding = #'2.0
+    \once \override Fingering.padding = #'2.5
     ds -3
     <gs, -2>
-    \once \override Fingering.padding = #'2.0
+    \once \override Fingering.padding = #'2.5
     e' -4
 
     | % 80
@@ -952,6 +952,7 @@ lower =  \relative e, {
     fs4 -3
     \once \fingeringAllowInsideStaff
     \once \fingeringBelowRightHead
+    \once \override Fingering.padding = #0.5
     e8 -2
 
     | % 10
