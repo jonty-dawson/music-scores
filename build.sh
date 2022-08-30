@@ -7,10 +7,14 @@ function error {
 
 trap 'error $LINENO' ERR
 
+generate_preview_images=false
 copy_to_docs=false
-while getopts :c opt; do
+oxipng_path=
+while getopts ":pcx:" opt; do
    case $opt in
+      p) generate_preview_images=true ;;
       c) copy_to_docs=true ;;
+      x) oxipng_path=${OPTARG} ;;
       :) echo "No arg for option -$OPTARG"; exit 1;;
       \?) echo "Unknown option -$OPTARG"; exit 1;;
    esac
@@ -18,17 +22,31 @@ done
 
 shift $(( OPTIND - 1 ))
 
+
 out_dir=./out
 downloads_dir=./gh-pages/assets/downloads/
 preview_images_dir=./gh-pages/assets/preview-images/
-lilypond_options="-dno-point-and-click -dpreview -o out/"
+lilypond_options="-dno-point-and-click -o ../../out/"
+# -dresolution=112.7 for 800px width, -dpng-width has defect that causes empty output when height > width
+lilypond_options_preview="-dno-print-pages -fpng -dresolution=112.7 -dpreview -o ../../out/"
+# --define-default=anti-alias-factor=4
 
 function build()
 {
    name=$1
-   mkdir -p $out_dir
 
-   lilypond $lilypond_options src/$name/$name.ly
+   pushd src/$name
+      lilypond $lilypond_options $name.ly
+      if $generate_preview_images; then
+         echo "Generating preview image..."
+         lilypond $lilypond_options_preview $name.ly
+      fi
+   popd
+
+   if [ -n "$oxipng_path" ]; then
+      echo "Optimizing png output (requires oxipng)..."
+      $oxipng_path --strip safe $out_dir/$name.preview.png
+   fi
 
    if $copy_to_docs; then
       echo "Copying to gh-pages..."
@@ -39,7 +57,8 @@ function build()
    fi
 }
 
-
+mkdir -p $out_dir
 build "bach-js-bwv998-prelude-fugue-allegro-guitar"
+build "bach-js-bwv1007-cello-suite-1-guitar"
 
 exit 0
