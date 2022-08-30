@@ -1,26 +1,31 @@
 ---
 layout: home
-name: bach-js-bwv998-prelude-fugue-allegro-guitar
+name: music-scores-index
 image: assets/images/banner-guitar-neck.jpg
 ---
 
 ![]({{page.image}})
 
-A place to share this guitar sheet music - maybe I'll add some more pieces in the future!
+A place to share these arrangements for guitar.
 
 <p>
 <h3>
-<li>
-{% for edition in site.editions %}
-
+<ul>
+{% assign sorted_editions = site.editions | sort: 'sort_key' %}
+{% for edition in sorted_editions %}
+  <li>
     <a href="{{ site.baseurl }}{{ edition.url }}">
       {{ edition.title }}
     </a>
-
+  </li>
 {% endfor %}
-</li>
+</ul>
 </h3>
 </p>
+
+
+Maybe I'll add some more pieces in the future!
+
 
 <br>
 <br>
