@@ -1,2 +1,6 @@
-<link rel="icon" href="{{ "/favicon.svg" | relative_url }}">
+<link rel="icon" href="{{ '/favicon.svg' | relative_url }}">
 <meta name="theme-color" content="#f8f8f8">
+{% if page.image.path and page.collection == "editions" %}
+<meta name="thumbnail" content="{{ page.image.path | absolute_url }}" />
+{% endif %}
+

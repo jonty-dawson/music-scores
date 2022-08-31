@@ -26,6 +26,10 @@ table {
     border: unset
 }
 
+img {
+    height: auto
+}
+
 
 div.logo-image {
     margin: 8px;
@@ -59,6 +63,10 @@ div.logo-image {
 
 .site-header {
     border-top-color: $brand-color-light;
+}
+
+.highlight {
+    background: lighten($brand-color-light, 12%);
 }
 
 .site-footer {

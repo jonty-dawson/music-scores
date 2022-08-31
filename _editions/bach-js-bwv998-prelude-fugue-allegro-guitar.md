@@ -9,14 +9,18 @@ work_number: BWV 998
 instrument: Guitar
 original_key: E&#x266D; major
 subheading: A transcription for classical guitar in E, rather than the more usual D.
-image: assets/preview-images/bach-js-bwv998-prelude-fugue-allegro-guitar.preview.png
+image:
+  path: assets/preview-images/bach-js-bwv998-prelude-fugue-allegro-guitar.preview.png
+  alt: "JS Bach: Prelude, Fugue and Allegro BWV 998, transcribed for classical guitar."
+  width: 800
+  height: 740
 ---
 
 
 {% include edition_content_head.md %}
 
 
-### Notes
+## Notes
 
 The guitar versions that I've come across of this work are mostly in D with drop D scordatura, including the one I used when first starting to learn the piece. I was interested in trying an arrangement in E, and found some freely-available online, but didn't get on with some of the editing choices. I don't have any urtext edition, and since images of the autograph manuscript are available via IMSLP and elsewhere, I decided to attempt to transcribe from source. I'm definitely no expert here, and the piece is really a bit beyond my playing ability, so exploring this just for kicks. Bach uses New German organ tablature towards the end of the Allegro, presumably due to running out of page space - notation that was certainly not familiar to me, but making for more fun in researching how to decipher.
 
@@ -32,7 +36,7 @@ This is my first attempt at using Lilypond, so it has been a learning exercise f
 * infrequent right-hand fingering indication.
 * the typeface for fingering is sans-serif with an open numeral 4 glyph - I find this leads to less visual confusion than a closed numeral 4, sometimes mistaken with 1 when printed on staff.
 
-### Reference links
+## Reference links
 
 Bach, JS *BWV 998 Autograph Manuscript image*. <https://commons.wikimedia.org/wiki/File:Bach%2C_Prelude%2C_Fugue_and_Allegro_in_E-flat_major%2C_BWV_998_manuscript.jpg>
 
@@ -57,10 +61,11 @@ Yates, Stanley (1998) *Bach's Unaccompanied String Music: A New (Historical) App
 
 
 
-#### German Organ Tabulature
+### German Organ Tabulature
 <https://www.w3.org/2021/03/smufl14/tables/german-organ-tablature.html>
 
 <https://steemit.com/classical-music/@partitura/german-organ-tablature-explained-part-1>
 
 <https://www.johnmckean.info/single-post/2017/04/23/introducing-m%C3%B6ller-a-music-font-for-german-organ-tablature>
 
+{% include edition_content_summary.md %}
