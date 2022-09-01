@@ -16,9 +16,9 @@ image:
   height: 1485
 ---
 
-
 {% include edition_content_head.md %}
-
+<!--more-->
+{% include edition_content_preview_image.md %}
 
 ## Notes
 

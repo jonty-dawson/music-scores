@@ -29,6 +29,7 @@ copyright: Copyright © 2022 Jonty Dawson
 edition_preview_suffix: .preview.png
 edition_download_dir: assets/downloads
 edition_preview_dir: assets/preview-images
+excerpt_separator: <!--more-->
 
 # Build settings
 remote_theme: jekyll/minima
@@ -47,12 +48,38 @@ collections:
     output: true
     permalink: /:collection/:name
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "editions"
+    values:
+      seo:
+        type: Article
+
 minima:
   skin: classic
 
   social_links:
     twitter: JontyDawson
     github: jonty-dawson
+
+# jekyll-seo-tag
+author:
+  name: Jonty Dawson
+  twitter: JontyDawson
+  url: https://github.com/jonty-dawson
+
+social:
+  name: Jonty Dawson
+  links:
+    - https://twitter.com/JontyDawson
+    - https://github.com/jonty-dawson
+    - http://www.linkedin.com/in/jontydawson
+
+# used for twitter card twitter:site
+twitter:
+  username: JontyDawson
 
 # Exclude from processing.
 # The following items will not be processed, by default.

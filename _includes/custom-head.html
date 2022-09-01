@@ -1,6 +1,19 @@
 <link rel="icon" href="{{ '/favicon.svg' | relative_url }}">
 <meta name="theme-color" content="#f8f8f8">
-{% if page.image.path and page.collection == "editions" %}
-<meta name="thumbnail" content="{{ page.image.path | absolute_url }}" />
+{% if page.collection == "editions" %}
+    {% if page.image.thumbnail %}
+        <meta name="thumbnail" content="{{ page.image.thumbnail | absolute_url }}" />
+    {% elsif page.image.path %}
+        <meta name="thumbnail" content="{{ page.image.path | absolute_url }}" />
+    {% elsif page.image %}
+        <meta name="thumbnail" content="{{ page.image | absolute_url }}" />
+    {% endif %}
+{% endif %}
+
+
+{% if page.description %}
+    <meta name="twitter:description" content="{{ page.description | markdownify | strip_html | normalize_whitespace }}" />
+{% elsif page.excerpt %}
+    <meta name="twitter:description" content="{{ page.excerpt | markdownify | strip_html | normalize_whitespace }}" />
 {% endif %}
 
