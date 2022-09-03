@@ -40,6 +40,12 @@ img {
     height: auto
 }
 
+div.summary-caption {
+    text-align: right;
+    font-style: italic;
+    color: $brand-color-dark
+}
+
 
 div.logo-image {
     margin: 8px;

@@ -4,7 +4,6 @@
 
 [![{{ page.image.alt }}]({{preview_url}}){: width="{{page.image.width}}" height="{{page.image.height}}"}]({{preview_url}})
 
-{:style="text-align: right;" .post-meta }
-*Summary extract*
+<div class="summary-caption"><span data-nosnippet>Summary extract</span></div>
 
 ---
