@@ -23,7 +23,17 @@ h1 {
 }
 
 table {
-    border: unset
+    border: unset;
+
+    a:link {
+        text-decoration: underline;
+    }
+}
+
+
+tbody td:nth-child(1) {
+    color: $table-first-col-color;
+    background-color: $table-first-col-bg-color;
 }
 
 img {
@@ -67,6 +77,10 @@ div.logo-image {
 
 .highlight {
     background: lighten($brand-color-light, 12%);
+
+    a:link {
+        text-decoration: underline;
+    }
 }
 
 .site-footer {

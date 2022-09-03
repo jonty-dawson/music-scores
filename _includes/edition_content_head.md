@@ -4,4 +4,4 @@
 ##### *{{ page.subheading }}*
 
 {: .highlight}
-#### Sheet music [PDF free to download]({{ pdf_path | relative_url }}){:target="_blank"}.
+#### Sheet music [PDF free to download]({{ pdf_path | absolute_url }}){:target="_blank"}.
