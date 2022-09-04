@@ -1,7 +1,7 @@
 {% capture pdf_path %}{{ site.edition_download_dir }}/{{ page.name}}.pdf{% endcapture %}
 
 
-##### *{{ page.subheading }}*
+<h3 class="subheading">{{ page.subheading }}</h3>
 
 {: .highlight}
-#### Sheet music [PDF free to download]({{ pdf_path | absolute_url }}){:target="_blank"}.
+## Free [sheet music PDF]({{ pdf_path | absolute_url }}){:target="_blank"}.

@@ -1,28 +1,44 @@
 ---
 layout: home
+title: Jonty Dawson
 name: music-scores-index
-image: assets/images/banner-guitar-neck.jpg
+image:
+  path: assets/images/banner-guitar-neck.jpg
+  alt: Closeup banner of a classical guitar neck
+  width: 1920
+  height: 403
 ---
 
-![]({{page.image}})
+![{{ page.image.alt }}]({{page.image.path | relative_url}}){: width="{{page.image.width}}" height="{{page.image.height}}"}
 
-A place to share these arrangements for guitar.
 
-<p>
-<h3>
-<ul>
+<h3>A place to share these arrangements for guitar.</h3>
+<br>
+<section>
+
 {% assign sorted_editions = site.editions | sort: 'sort_key' %}
 {% for edition in sorted_editions %}
-  <li>
-    <a href="{{ site.baseurl }}{{ edition.url }}">
-      {{ edition.title }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
-</h3>
-</p>
+  <article id="{{ edition.slug }}">
+    <div class="edition-card-content">
+      <h2 class="edition-entry-title">
+        <a href="{{ site.baseurl }}{{ edition.url }}">
+          {{ edition.title }}
+        </a>
+      </h2>
+      <div class="edition-entry-subheading">
+          {{ edition.subheading }}
+      </div>
+      {% assign read_duration = edition.content | number_of_words  | divided_by: 180 | at_least: 1 %}
+      <span class="edition-tagline">{{edition.tagline}} · {{edition.date | date: "%Y-%m-%d"}} · {{read_duration}} minute read</span>
+    </div>
+    <br>
+  </article>
 
+{% endfor %}
+
+</section>
+
+<hr>
 
 Maybe I'll add some more pieces in the future!
 

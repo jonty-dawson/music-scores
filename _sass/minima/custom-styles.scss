@@ -81,12 +81,26 @@ div.logo-image {
     border-top-color: $brand-color-light;
 }
 
+h3.subheading {
+    font-size: 1.125rem;
+    font-style: italic;
+}
+
+h2.highlight {
+    font-size: 1.5rem;
+}
+
 .highlight {
     background: lighten($brand-color-light, 12%);
 
     a:link {
         text-decoration: underline;
     }
+}
+
+
+.edition-tagline {
+    color: $brand-color;
 }
 
 .site-footer {

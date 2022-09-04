@@ -2,33 +2,33 @@
 <table>
   <tbody>
     <tr>
-      <td>Title </td><td>{{ page.work_title }}</td>
+      <td>Title </td><td itemprop="title">{{ page.work_title }}</td>
     </tr>
     <tr>
-      <td>Composer </td><td>{{ page.composer }}</td>
+      <td>Composer </td><td itemprop="composer">{{ page.composer }}</td>
     </tr>
     {% if page.work_number %}
       <tr>
-        <td>Work number </td><td>{{ page.work_number }}</td>
+        <td>Work number </td><td itemprop="work-number">{{ page.work_number }}</td>
       </tr>
     {% endif %}
     {% if page.instrument %}
       <tr>
-        <td>Instrument </td><td>{{ page.instrument }}</td>
+        <td>Instrument </td><td itemprop="instrument">{{ page.instrument }}</td>
       </tr>
     {% endif %}
     {% if page.original_key %}
       <tr>
-        <td>Original key </td><td>{{ page.original_key }}</td>
+        <td>Original key </td><td itemprop="original-key">{{ page.original_key }}</td>
       </tr>
     {% endif %}
     {% if page.arranger %}
       <tr>
-        <td>Arranger </td><td><b>{{ page.arranger }}</b></td>
+        <td>Arranger </td><td itemprop="arranger">{{ page.arranger }}</td>
       </tr>
     {% endif %}
     <tr>
-      <td>Edition PDF </td><td><a href="{{ pdf_path | absolute_url }}" ><strong>{{ page.slug }}.pdf</strong></a></td>
+      <td>Edition PDF </td><td itemprop="edition-pdf"><a href="{{ pdf_path | absolute_url }}" ><strong>{{ page.slug }}.pdf</strong></a></td>
     </tr>
   </tbody>
 </table>

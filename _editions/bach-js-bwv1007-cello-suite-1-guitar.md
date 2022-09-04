@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "JS Bach | Cello Suite No.1 in G major BWV 1007"
+title: "JS Bach | Cello Suite No.1 BWV 1007 for guitar"
 name: bach-js-bwv1007-cello-suite-1-guitar
 sort_key: bach-js-bwv-1007
+date: 2022-8-30
 composer: Johann Sebastian Bach
 work_title: Cello Suite No. 1
 work_number: BWV 1007
@@ -17,6 +18,16 @@ image:
 ---
 
 {% include edition_content_head.md %}
+
+- Prelude
+- Allemande
+- Courante
+- Sarabande
+- Menuet I
+- Menuet II
+- Gigue
+- Ornamentation suggestion sheet
+
 <!--more-->
 {% include edition_content_preview_image.md %}
 
