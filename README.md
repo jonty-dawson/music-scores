@@ -3,6 +3,8 @@ Sheet music using Lilypond
 
 A place to share a guitar arrangement, experimenting with lilypond. I may make additions in the future!
 
+View the output at https://jonty-dawson.github.io/music-scores/
+
 ## Building
 
 Requires:
