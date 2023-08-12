@@ -69,4 +69,9 @@ Yates, Stanley (1998) *Bach's Unaccompanied String Music: A New (Historical) App
 
 <https://www.johnmckean.info/single-post/2017/04/23/introducing-m%C3%B6ller-a-music-font-for-german-organ-tablature>
 
+## Revision history
+* v1.0.0 Initial edition
+* [v1.1.0](https://github.com/jonty-dawson/music-scores/commit/61226f7fbba288a6505a4863692b2c9383c741b3) Layout and fingering changes. Fugue bars 26-28 simplified.
+* [v1.1.1](https://github.com/jonty-dawson/music-scores/commit/fa8565fd91e00530e9822f793d47360d0cdd685c) Fix transcription error, Fugue bar 75 accidental.
+
 {% include edition_content_summary.md %}
