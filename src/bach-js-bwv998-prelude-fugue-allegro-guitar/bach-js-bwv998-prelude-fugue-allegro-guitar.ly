@@ -12,7 +12,7 @@ mSkipTypesetting = ##f
     subtitle = "transcription for guitar"
     copyright = "Copyright © 2022 Jonty Dawson"
     tagline = \markup { \fromproperty #'header:work_title \fromproperty #'header:worknumber }
-    version = "1.1.0"
+    version = "1.1.1"
 }
 
 

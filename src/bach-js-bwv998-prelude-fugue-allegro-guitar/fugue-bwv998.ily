@@ -1220,14 +1220,14 @@ upper =  \relative e' {
     b 8
     r8
     e,16 -0
-    b -0
-    a -1
+    b
+    as
     b
 
     | % 76
     fs'=' -3
     b, -0
-    a -2
+    a? -2
     b
     gs -1
     b
