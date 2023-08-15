@@ -36,7 +36,8 @@ The marked trills are suggested as supported above-note (appoggiatura) single-st
 
 ## Reference links
 
-Bach, JS *BWV 528 autograph manuscript facsimile* <https://opac.rism.info/metaopac/search?id=467300871&Language=en>
+Bach, JS *BWV 528 autograph manuscript facsimile* <https://opac.rism.info/metaopac/search?View=rism&id=467300871&Language=en>
+
 
 IMSLP *BWV 528 various editions* <https://imslp.org/wiki/Organ_Sonata_No.4_in_E_minor%2C_BWV_528_(Bach%2C_Johann_Sebastian)>
 
