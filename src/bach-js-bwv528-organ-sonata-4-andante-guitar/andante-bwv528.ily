@@ -4,7 +4,6 @@ upper =  \relative fs {
     \set fingeringOrientations = #'(up left)
     \set strokeFingerOrientations = #'(up)
     \override Fingering.direction = #UP
-    \trillAdjustForFingering
 
     r8
     fs8 -3
@@ -27,6 +26,7 @@ upper =  \relative fs {
     e'=' -4
     d -2
     cs
+    \once \trillAdjustForFingering
     cs8. \trill -21
     b16 -4 \stopTextSpan
 
@@ -193,6 +193,7 @@ upper =  \relative fs {
     b'=' -4
     a -2
     gs
+    \once \trillAdjustForFingering
     gs 8. \trill -21
     fs 16 -4
 
@@ -229,6 +230,7 @@ upper =  \relative fs {
     \barreSpannerText  #"IV" #0
     a -2 \startTextSpan
     gs
+    \once \trillAdjustForFingering
     gs 8. \trill -21
     fs 16 -4  \stopTextSpan
 
@@ -317,6 +319,7 @@ upper =  \relative fs {
     fs 16 -3
     d'=' -2
     \barreBracket #0 #-3
+    \once \trillAdjustForFingering
     <a cs> 8. -21 \trill
     d 16
     d
@@ -333,6 +336,7 @@ upper =  \relative fs {
     | %15
     cs,= 16 -3
     e'=' 32 -0
+    \once \override Fingering.padding = #1.0
     <d -2> \glissando
     <cs -2 >16
     e
@@ -341,7 +345,7 @@ upper =  \relative fs {
     a,=
     e'='
     g,=
-    b 32 -0
+    b 32
     a -2
     g -0 (
     a)
@@ -446,7 +450,7 @@ upper =  \relative fs {
     b 32 -0
     cs -2
     d -4
-    (cs)
+    cs
     b 16
     e -0
     b
@@ -629,7 +633,7 @@ upper =  \relative fs {
 
     | %27
     <b,= ^0 e=' ^0> 16
-    c=' 32 \2 -1
+    c=' 32 -1
     d -4
     e 16
     c
@@ -742,6 +746,7 @@ upper =  \relative fs {
     fs -2
     g 16
     e -0
+    \once \trillAdjustForFingering
     fs 8. \trill -42
     g 16
     << {
@@ -934,6 +939,7 @@ upper =  \relative fs {
     fs -3
     d'=' -2
     e,= -1
+    \once \override Fingering.padding = #1.0
     <d'=' -3> \glissando
     <cs -3>
     e,= -2
@@ -1042,6 +1048,7 @@ upper =  \relative fs {
     <b= ^3 d ^2> \glissando
     \once \override Fingering.padding = #2.0
     <cs -2>
+    \once \trillAdjustForFingering
     cs8 \trill -21
     r16
     b16 -4
@@ -1197,7 +1204,7 @@ lower =  \relative b, {
     | %10
     d -3
     r
-    b \5 -1
+    b -1
     r
     cs -2
     fs
@@ -1408,11 +1415,11 @@ lower =  \relative b, {
     <g'= \fingeringShift #UP _1 d'=' _3>
 
     | %27
-    c,= 16 \fingeringShift #DOWN -3
+    c,= 16 \5 \fingeringShift #DOWN -3
     r16
     g=, 8  -3
     a
-    <f'= \fingeringShift #UP _1 c'=' _3>
+    <f'= _1 c'=' _3>
     <b,=, _1 a'= _2>16
     r16
     <e= _1 g= _0>8
