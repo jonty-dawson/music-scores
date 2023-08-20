@@ -43,8 +43,9 @@ image:
 </section>
 
 <hr>
-
+<h3>
 Maybe I'll add some more pieces in the future!
+</h3>
 
 
 <br>
