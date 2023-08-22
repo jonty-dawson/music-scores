@@ -4,4 +4,4 @@
 <h3 class="subheading">{{ page.subheading }}</h3>
 
 {: .highlight}
-## Free [sheet music PDF]({{ pdf_path | absolute_url }}){:target="_blank"}.
+## Free [sheet music PDF]({{ pdf_path | absolute_url }}){:target="_blank" data-goatcounter-click="{{pdf_path}}" data-goatcounter-title="{{page.name}}.pdf" data-goatcounter-referrer="edition-head"}.

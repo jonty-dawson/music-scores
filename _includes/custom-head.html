@@ -17,3 +17,14 @@
     <meta name="twitter:description" content="{{ page.excerpt | markdownify | strip_html | normalize_whitespace }}" />
 {% endif %}
 
+<script>
+    window.goatcounter = {}
+</script>
+{% if site.goatcounter_analytics.allow_local %}
+<script>
+    window.goatcounter.allow_local = true
+</script>
+{% endif %}
+
+<script data-goatcounter="https://{{site.goatcounter_analytics.code}}.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>

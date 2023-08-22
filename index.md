@@ -31,7 +31,7 @@ image:
       {% capture edition_pdf_path %}{{ site.edition_download_dir }}/{{ edition.name}}.pdf{% endcapture %}
       {% assign read_duration = edition.content | number_of_words  | divided_by: 180 | at_least: 1 %}
       <span class="edition-tagline">
-        <a href="{{ edition_pdf_path | absolute_url }}">{{edition.tagline}}</a>
+        <a href="{{ edition_pdf_path | absolute_url }}" data-goatcounter-click="{{edition_pdf_path}}" data-goatcounter-title="{{edition.name}}.pdf" data-goatcounter-referrer="edition-card-tagline">{{edition.tagline}}</a>
         <a href="{{ site.baseurl }}{{ edition.url }}">· {{edition.date | date: "%Y-%m-%d"}} · Edition notes</a>
       </span>
     </div>

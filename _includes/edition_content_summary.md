@@ -28,7 +28,10 @@
       </tr>
     {% endif %}
     <tr>
-      <td>Edition PDF </td><td itemprop="edition-pdf"><a href="{{ pdf_path | absolute_url }}" ><strong>{{ page.slug }}.pdf</strong></a></td>
+      <td>Edition PDF </td><td itemprop="edition-pdf"><a href="{{ pdf_path | absolute_url }}"
+        data-goatcounter-click="{{pdf_path}}"
+        data-goatcounter-title="{{page.name}}.pdf"
+        data-goatcounter-referrer="edition-summary"><strong>{{ page.slug }}.pdf</strong></a></td>
     </tr>
   </tbody>
 </table>

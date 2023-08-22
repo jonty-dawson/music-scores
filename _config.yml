@@ -82,6 +82,10 @@ social:
 twitter:
   username: JontyDawson
 
+goatcounter_analytics:
+  code: jonty-dawson-github
+  allow_local: false
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
