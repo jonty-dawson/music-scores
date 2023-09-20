@@ -59,6 +59,7 @@ function build()
 
 mkdir -p $out_dir
 build "bach-js-bwv528-organ-sonata-4-andante-guitar"
+build "bach-js-bwv784-invention-13-guitar"
 build "bach-js-bwv998-prelude-fugue-allegro-guitar"
 build "bach-js-bwv1007-cello-suite-1-guitar"
 
