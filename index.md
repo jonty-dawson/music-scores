@@ -4,13 +4,13 @@ title: Jonty Dawson
 name: music-scores-index
 image:
   path: assets/images/banner-guitar-neck.jpg
-  alt: Closeup banner of a classical guitar neck
+  alt: Banner image of a classical guitar fretboard
   width: 1920
   height: 403
 ---
 
-![{{ page.image.alt }}]({{page.image.path | relative_url}}){: width="{{page.image.width}}" height="{{page.image.height}}"}
-
+<h1>Sheet music for classical guitar</h1>
+![{{ page.image.alt }}]({{page.image.path | relative_url}}){: width="{{page.image.width}}" height="{{page.image.height}}" alt="{{page.image.alt}}}
 
 <h3>A place to share these arrangements for guitar.</h3>
 <br>
