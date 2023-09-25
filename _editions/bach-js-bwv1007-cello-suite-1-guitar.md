@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "JS Bach | Cello Suite No.1 BWV 1007 for guitar"
+title: JS Bach | Cello Suite No.1 BWV 1007 for guitar
 name: bach-js-bwv1007-cello-suite-1-guitar
 sort_key: bach-js-bwv-1007
 date: 2022-8-30
@@ -12,7 +12,8 @@ original_key: G major
 subheading: An arrangement for classical guitar with fingering and ornamentation suggestions.
 image:
   path: assets/preview-images/bach-js-bwv1007-cello-suite-1-guitar.preview.png
-  alt: "JS Bach: Cello Suite No.1 BWV 1007 arranged for guitar. Prelude, Allemande, Courante, Sarabande, Menuet I & II, Gigue."
+  alt: >
+    JS Bach: Cello Suite No.1 BWV 1007 arranged for guitar. Prelude, Allemande, Courante, Sarabande, Menuet I & II, Gigue.
   width: 800
   height: 1485
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "JS Bach | Prelude, Fugue and Allegro BWV 998 for guitar"
+title: JS Bach | Prelude, Fugue and Allegro BWV 998 for guitar
 name: bach-js-bwv998-prelude-fugue-allegro-guitar
 sort_key: bach-js-bwv-0998
 date: 2022-7-28
@@ -12,7 +12,8 @@ original_key: E&#x266D; major
 subheading: A transcription for classical guitar in E, rather than the more usual D.
 image:
   path: assets/preview-images/bach-js-bwv998-prelude-fugue-allegro-guitar.preview.png
-  alt: "JS Bach: Prelude, Fugue and Allegro BWV 998, transcribed for classical guitar."
+  alt: >
+    JS Bach: Prelude, Fugue and Allegro BWV 998, transcribed for classical guitar.
   width: 800
   height: 740
 ---

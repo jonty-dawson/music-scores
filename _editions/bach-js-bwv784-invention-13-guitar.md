@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "JS Bach | Invention No. 13 BWV 784 for guitar"
+title: JS Bach | Invention No. 13 BWV 784 for guitar
 name: bach-js-bwv784-invention-13-guitar
 sort_key: bach-js-bwv-0784
 date: 2023-9-20
@@ -12,7 +12,8 @@ instrument: Guitar
 subheading: The two-part invention in A minor, transposed into B minor in this arrangement for classical guitar.
 image:
   path: assets/preview-images/bach-js-bwv784-invention-13-guitar.png
-  alt: "Johann Sebastian Bach: Invention No. 13 BWV 784, arranged for classical guitar (original key A minor)."
+  alt: >
+    Johann Sebastian Bach: Invention No. 13 BWV 784, arranged for classical guitar (original key A minor).
   width: 800
   height: 332
 ---
