@@ -5,7 +5,7 @@ name: bach-js-bwv528-organ-sonata-4-andante-guitar
 sort_key: bach-js-bwv-0528
 date: 2023-8-14
 composer: Johann Sebastian Bach
-work_title: Andante from Organ Sonata No. 4 in E minor
+work_title: Organ Sonata No. 4 in E minor, II. Andante
 work_number: BWV 528
 instrument: Guitar
 subheading: My arrangement for classical guitar of this meditative slow movement.
