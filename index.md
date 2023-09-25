@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Jonty Dawson
+title: "Music Scores - PDF sheet music for classical guitar | Jonty Dawson"
 name: music-scores-index
 image:
   path: assets/images/banner-guitar-neck.jpg
