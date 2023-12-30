@@ -4,7 +4,7 @@
 mSkipTypesetting = ##f
 
 \header {
-    work_title = \markup { \concat { "Andante from Organ Sonata N" \char ##x2070 "4 in E minor" } }
+    work_title = \markup { \concat { "Andante from Organ Sonata N" \char ##x00BA " 4 in E minor" } }
     composer = "Johann Sebastian Bach"
     worknumber = "BWV 528"
     title = \markup { \concat { \fromproperty #'header:composer " - " \fromproperty #'header:work_title " " \fromproperty #'header:worknumber } }
@@ -24,14 +24,13 @@ mSkipTypesetting = ##f
 \bookpart {
     \paper {
         bookTitleMarkup = \pieceTitleMarkup
+        scoreTitleMarkup = \markup { \null }
+        markup-system-spacing.minimum-distance = 13
     }
 
     \header {
-        movement = Andante
         breakbefore = ##f
     }
-
-
 
     \score {
 
@@ -39,6 +38,9 @@ mSkipTypesetting = ##f
             \clef "treble_8"
             \key b \minor
             \time 4/4
+
+            \once \override Score.MetronomeMark.outside-staff-padding = #1
+            \tempo \markup "Andante"
 
             %\override Glissando.breakable = ##t
             %\override Glissando.after-line-breaking = ##t

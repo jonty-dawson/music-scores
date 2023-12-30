@@ -24,6 +24,8 @@ mSkipTypesetting = ##f
 \bookpart {
     \paper {
         bookTitleMarkup = \pieceTitleMarkup
+        scoreTitleMarkup = \markup { \null }
+        markup-system-spacing.basic-distance = 3
     }
 
 

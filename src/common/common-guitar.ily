@@ -274,3 +274,92 @@ includeIfNotPreview = #(define-void-function (file)(string?)
 #(define-markup-command (vspaceIfPreview layout props space) (number?)
     (interpret-markup layout props
         #{ #(if (ly:get-option 'preview) (markup #:vspace space) "") #}))
+
+% https://lists.gnu.org/archive/html/lilypond-user/2013-07/msg00632.html
+#(define-markup-command (when-property layout props symbol markp) (symbol? markup?)
+    (if (chain-assoc-get symbol props)
+        (interpret-markup layout props markp)
+        empty-stencil))
+
+
+glissToBelowNotes = #(define-music-function
+     ()
+     ()
+   #{
+    \override Glissando.to-fingerings = ##f
+    \override Glissando.thickness = #2
+    \override Glissando.bound-details.left.padding = #-0.0
+    \override Glissando.bound-details.right.padding = #-0.0
+    %\override Glissando.bound-details.left.attach-dir = #RIGHT
+    \override Glissando.bound-details.right.end-on-accidental = #f
+    \override Glissando.bound-details.right.attach-dir = #CENTER
+    \override Glissando.Y-offset = #-0.85
+    \override Glissando.springs-and-rods = #ly:spanner::set-spacing-rods
+    \override Glissando.minimum-length = #2.5
+    #}
+)
+
+glissToAboveNotes = #(define-music-function
+     ()
+     ()
+   #{
+    \override Glissando.to-fingerings = ##f
+    \override Glissando.thickness = #2
+    \override Glissando.bound-details.left.padding = #-0.0
+    \override Glissando.bound-details.right.padding = #-0.0
+    \override Glissando.bound-details.left.attach-dir = #CENTER
+    \override Glissando.bound-details.right.end-on-accidental = #f
+    \override Glissando.bound-details.right.attach-dir = #CENTER
+    \override Glissando.Y-offset = #1.5
+    \override Glissando.springs-and-rods = #ly:spanner::set-spacing-rods
+    \override Glissando.minimum-length = #2.5
+    #}
+)
+
+dashedTextSpanner = #(define-music-function ( text direction hasEnd) (string? ly:dir? boolean?)
+define
+#{
+    \override TextSpanner.direction = #direction
+    \override TextSpanner.bound-details.left.text = \markup {
+     %\box
+        \italic
+        #text
+    }
+    \override TextSpanner.style = #'dashed-line
+    \override TextSpanner.dash-period = #1.0
+    \override TextSpanner.dash-fraction = #0.4
+    \override TextSpanner.bound-details.left.attach-dir = #CENTER
+    %\override TextSpanner.bound-details.right.attach-dir = #RIGHT
+    \override TextSpanner.bound-details.right.text = #(if (eq? #'hasEnd #t) (spannerEndLine #'direction) (spannerEndNone))
+    \override TextSpanner.bound-details.left.padding = #0
+    \override TextSpanner.bound-details.right.padding = #-0.25
+    \override TextSpanner.bound-details.left-broken.text = ##f
+    \override TextSpanner.bound-details.right-broken.text = ##f
+    \override TextSpanner.bound-details.left.stencil-align-dir-y = #-0.5
+    \override TextSpanner.bound-details.left.Y = #0.5
+    \override TextSpanner.bound-details.right.Y = #0.5
+#}
+)
+
+restoreTextSpanner = {
+    \revert TextSpanner.bound-details.left.attach-dir
+    \revert TextSpanner.bound-details.left.padding
+    \revert TextSpanner.bound-details.left.text
+    \revert TextSpanner.bound-details.left.stencil-align-dir-y
+    \revert TextSpanner.bound-details.left.Y
+    \revert TextSpanner.bound-details.left-broken.text
+
+    \revert TextSpanner.bound-details.right.attach-dir
+    \revert TextSpanner.bound-details.right.padding
+    \revert TextSpanner.bound-details.right.text
+    \revert TextSpanner.bound-details.right.stencil-align-dir-y
+    \revert TextSpanner.bound-details.right.Y
+    \revert TextSpanner.bound-details.right-broken.text
+
+%    \override TextSpanner.bound-details = #'()
+    \revert TextSpanner.staff-padding
+    \revert TextSpanner.direction
+    \revert TextSpanner.style
+    \revert TextSpanner.dash-period
+    \revert TextSpanner.dash-fraction
+}

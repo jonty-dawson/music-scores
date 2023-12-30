@@ -27,16 +27,17 @@ myStaffSize = #19.43
     last-bottom-spacing.basic-distance = 15
     system-system-spacing.padding = 4
 
-    % between top of movement title and first staff. Some titles float higher
-    % because of above staff music on first line (e.g. bwv1007 sarabande), this
-    % helps equalise space between title + staff lines
-    markup-system-spacing.minimum-distance = 15
+    % between top of score/movement title and first staff
+    markup-system-spacing.minimum-distance = 0
+    markup-system-spacing.basic-distance = 5
 
-    #(define fonts
-        (make-pango-font-tree "Charter"
-                          "Fira Sans"
-                          "Fira Mono"
-                           (/ myStaffSize defaultStaffSize)))
+    %#(define fonts
+    %     (make-pango-font-tree "Charter"
+    %                       "Fira Sans"
+    %                       "Fira Mono"
+    %                        (/ myStaffSize defaultStaffSize)))
+
+
 
     %page-space-weighting = #10
     %page-count = #5
@@ -50,6 +51,7 @@ myStaffSize = #19.43
     oddHeaderMarkup = \markup \null
     evenHeaderMarkup = \markup \null
     oddFooterMarkup = \markup {
+        \override #'(font-name . "Charter")
         \fill-line {
             \left-column \on-the-fly #part-first-page \tiny {
                 \fromproperty #'header:copyright
@@ -71,60 +73,77 @@ myStaffSize = #19.43
     % see titling-init.ly in lilypond install
 
     pieceTitleMarkup =  \markup {
+        % could only get font-family to work if loaded via make-pango-font-tree
+        % \override #'(font-family . "Charter")
+        \override #'(font-name . "Charter")
         \column {
             %\override #'(baseline-skip . 5.5)
             \column {
                 \null
                 \null
                 \fill-line {
+                    \override #'(font-name . "Charter Bold")
                     \abs-fontsize #20
+                    %\override #'(font-series . bold)
+                    %\bold
                     \fromproperty #'header:work_title
                 }
                 \null
-                \fill-line {
-                    \abs-fontsize #14
-                    \fromproperty #'header:worknumber
-                }
-                \null
-                \fill-line {
-                    \abs-fontsize #14
-                    \fromproperty #'header:subtitle
-                }
-                \null
-            }
 
-            \fill-line {
-                \null
-                \null
-                \vcenter  \right-column {
-                    \abs-fontsize #14
-                    \line {
-                        \fromproperty #'header:composer
+                \when-property #'header:worknumber {
+                    \fill-line {
+                        \abs-fontsize #14
+                        \fromproperty #'header:worknumber
                     }
+                    \null
+                }
+                \when-property #'header:subtitle {
+                    \fill-line {
+                        \abs-fontsize #14
+                        \fromproperty #'header:subtitle
+                    }
+                    \null
+                }
+                \when-property #'header:subtitle_italic {
+                    \fill-line {
+                        \abs-fontsize #14
+                        \override #'(font-name . "Charter Italic")
+                        \fromproperty #'header:subtitle_italic
+                    }
+                    \null
+                }
 
-                    %\abs-fontsize #10
-                    %\fromproperty #'header:original_key
+%                \vspace #2.0
+            }
 
+            \fill-line \general-align #Y #DOWN {
+                \left-column {
+                    \fromproperty #'header:left_title
+                }
+                \right-column {
+                    \abs-fontsize #14
+                    \column {
+                        \line {
+                            \fromproperty #'header:composer
+                        }
+                    }
                 }
             }
-            %\vspace #2.0
+            \vspaceIfPreview #1.0
         }
     }
 
     bookTitleMarkup =  \markup \null
 
     scoreTitleMarkup = \markup {
-        \column {
-            \abs-fontsize #16 {
-                \column {
-                    \null
-
-                    % vertical spacing (markup-system-spacing etc) doesn't seem to apply
-                    % for "-dpreview", so add some conditional manual spacing
-                    \vspaceIfPreview #1.0
-                    \fromproperty #'header:movement
-                    \vspaceIfPreview #0.5
-                }
+        \override #'(font-name . "Charter Bold")
+        \abs-fontsize #16 {
+            \column {
+                % vertical spacing (markup-system-spacing etc) doesn't seem to apply
+                % for "-dpreview", so add some conditional manual spacing
+                \vspaceIfPreview #1.0
+                \fromproperty #'header:movement
+                \vspaceIfPreview #0.5
             }
         }
     }

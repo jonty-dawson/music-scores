@@ -4,7 +4,7 @@
 mSkipTypesetting = ##f
 
 \header {
-    work_title = \markup { \concat { "Cello Suite N" \char ##x2070 "1" } }
+    work_title = \markup { \concat { "Cello Suite N" \char ##x00BA " 1" } }
     % work_title = "Cello Suite Nº 1"
     composer = "Johann Sebastian Bach"
     worknumber = "BWV 1007"
