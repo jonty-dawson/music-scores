@@ -29,17 +29,26 @@ preview_images_dir=./gh-pages/assets/preview-images/
 lilypond_options="-dno-point-and-click -o ../../out/"
 # -dresolution=112.7 for 800px width, -dpng-width has defect that causes empty output when height > width
 lilypond_options_preview="-dno-print-pages -fpng -dresolution=112.7 -dpreview -o ../../out/"
+lilypond_options_preview_full_page="-fpng -dresolution=96.8"
 # --define-default=anti-alias-factor=4
 
 function build()
 {
    name=$1
+   preview_is_whole_first_page=${2:false}
 
    pushd src/$name
       lilypond $lilypond_options $name.ly
-      if $generate_preview_images; then
+      if [ $generate_preview_images ]; then
          echo "Generating preview image..."
-         lilypond $lilypond_options_preview $name.ly
+         if [ $preview_is_whole_first_page ]; then
+            echo "preview_is_whole_first_page"
+            lilypond $lilypond_options_preview_full_page $name.ly
+            mv -f $name-page1.png ../../$out_dir/$name.preview.png
+            rm $name-page*.png
+         else
+            lilypond $lilypond_options_preview $name.ly
+         fi
       fi
    popd
 
@@ -62,5 +71,6 @@ build "bach-js-bwv528-organ-sonata-4-andante-guitar"
 build "bach-js-bwv784-invention-13-guitar"
 build "bach-js-bwv998-prelude-fugue-allegro-guitar"
 build "bach-js-bwv1007-cello-suite-1-guitar"
+build "trad-czech-sedlak-sedlak-guitar" true
 
 exit 0
