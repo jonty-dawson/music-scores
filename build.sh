@@ -28,8 +28,8 @@ downloads_dir=./gh-pages/assets/downloads/
 preview_images_dir=./gh-pages/assets/preview-images/
 lilypond_options="-dno-point-and-click -o ../../out/"
 # -dresolution=112.7 for 800px width, -dpng-width has defect that causes empty output when height > width
-lilypond_options_preview="-dno-print-pages -fpng -dresolution=112.7 -dpreview -o ../../out/"
-lilypond_options_preview_full_page="-fpng -dresolution=96.8"
+lilypond_options_preview="-dno-print-pages -fpng -dresolution=112.7 -dpreview -o ../../out/ --define-default=anti-alias-factor=8"
+lilypond_options_preview_full_page="-fpng -dresolution=96.8 --define-default=anti-alias-factor=8"
 # --define-default=anti-alias-factor=4
 
 function build()
@@ -72,5 +72,6 @@ build "bach-js-bwv784-invention-13-guitar"
 build "bach-js-bwv998-prelude-fugue-allegro-guitar"
 build "bach-js-bwv1007-cello-suite-1-guitar"
 build "trad-czech-sedlak-sedlak-guitar" true
+build "barrios-agustin-julia-florida-guitar" true
 
 exit 0
