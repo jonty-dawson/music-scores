@@ -39,8 +39,8 @@ Another change is the reworking of the moody F♯ minor (mediant) passage in bar
 In bars 42 and 43, there is some ambiguity in that the notated pitches of MS 1942 don't seem to work with the notated left-hand fingering. Bar 42 has lower voice beat 4 (highlighted with asterisk below) as {G♯ 3, B♮ 2} - which doesn't make sense with the 4th-fret barre (B natural would be with the barre / 1st finger). Perhaps this is a mistake in fingering notation, or else an accidental sharp is missing and {G♯ 3, B♯ 2} was intended?
 
 <div class="summary-caption"><span data-nosnippet="">MS 1942 bars 41-45.</span></div>
-<a href="/assets/images/julia-florida-1942-ms-bars-41-45.png" target="_blank">
-![Extract of Julia Florida 1942 MS, bars 41-45.](/assets/images/julia-florida-1942-ms-bars-41-45.png)
+<a href="{{'/assets/images/julia-florida-1942-ms-bars-41-45.png' | absolute_url}}" target="_blank">
+![Extract of Julia Florida 1942 MS, bars 41-45.]({{'/assets/images/julia-florida-1942-ms-bars-41-45.png' | relative_url}})
 </a>
 
 Bar 43 is difficult to make out in the low-res image. I read this as Barrios, having run out of space for fingering directly to the left of the B notehead, has written the "2" lower down along with a short looping line to indicate it is intended for the B. There is no sharp sign on the G, but this could be in error - Barrios often adds cautionary accidentals (for example, see G♮ in bar 45), so we might expect an explicit natural sign if G♮ was intended? As with bar 42, the fingering doesn't make sense for the literally notated pitches {G♮ 3, B♮ 2} with a 4th-fret barre.
