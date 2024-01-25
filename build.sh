@@ -73,5 +73,6 @@ build "bach-js-bwv998-prelude-fugue-allegro-guitar"
 build "bach-js-bwv1007-cello-suite-1-guitar"
 build "trad-czech-sedlak-sedlak-guitar" true
 build "barrios-agustin-julia-florida-guitar" true
+build "boulanger-lili-d-un-jardin-clair-guitar" true
 
 exit 0
