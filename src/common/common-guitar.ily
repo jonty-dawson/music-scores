@@ -134,11 +134,13 @@ fingeringShift =
 
 barreText = #(define-music-function (fretBox) (string?)
 #{
+    -\tweak TextScript.parent-alignment-X #CENTER
     -\markup
     {
         \pad-to-box #'(0 . 0) #'(-1.5 . 0.0)
         \upright
         \fontsize #-1
+        \center-align
         #fretBox
     }
 #}
