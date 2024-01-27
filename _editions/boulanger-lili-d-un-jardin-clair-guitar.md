@@ -7,7 +7,9 @@ date: 2024-1-25
 composer: Lili Boulanger
 work_title: D'un jardin clair ('Of a clear garden')
 instrument: Guitar
+original_key: B major
 subheading: From Trois Morceaux pour Piano (1914), arranged for solo classical guitar.
+arranger: Jonty Dawson
 image:
   path: assets/preview-images/boulanger-lili-d-un-jardin-clair-guitar.png
   alt: >
@@ -18,9 +20,9 @@ image:
 
 {% include edition_content_head.md %}
 <!--more-->
-{% include edition_content_first_page_image.md %}
+{% include edition_content_preview_image.md %}
 
-## Notes
+## Edition notes
 
 During her studies at the Conservatoire de Paris, Boulanger won the Prix de Rome for composition - the prize being a scholarship to the French Academy in Rome, at the *Villa Medici*. *D'un jardin clair* was written in 1914 during her stay there. The piece is dedicated to her friend Ninette Salles, daughter of the civil engineer Gustave Eiffel.
 

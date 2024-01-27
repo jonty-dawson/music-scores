@@ -8,6 +8,7 @@ composer: Agustín Barrios Mangoré
 work_title: Julia Florida
 instrument: Guitar
 subheading: An edition based on the San Salvador 1942 manuscript.
+editor: Jonty Dawson
 image:
   path: assets/preview-images/barrios-agustin-julia-florida-guitar.png
   alt: >
@@ -18,9 +19,9 @@ image:
 
 {% include edition_content_head.md %}
 <!--more-->
-{% include edition_content_first_page_image.md %}
+{% include edition_content_preview_image.md %}
 
-## Notes
+## Edition notes
 There appear to be two manuscripts by Barrios available, but no recording of him playing the piece.
 
 The first manuscript is marked "En San José de Costa Rica. Navidad de 1938." [Christmas 1938]. It carries the dedication *to my intelligent and highly esteemed disciple the distinguished señorita Julia Florida Martinez*. Most well-known recordings seem to be derived from this manuscript.

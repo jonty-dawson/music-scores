@@ -37,6 +37,15 @@ table {
     border-radius: 16px;
 }
 
+.edition-card-img {
+    background-color: white;
+    padding: 8px;
+    border-radius: 0px;
+    width: 248px;
+    margin-bottom: 4px;
+}
+
+
 tbody td:nth-child(1) {
     color: $table-first-col-color;
     background-color: $table-first-col-bg-color;
@@ -55,6 +64,8 @@ div.summary-caption {
     font-style: italic;
     color: $brand-color-dark
 }
+
+
 
 
 div.logo-image {

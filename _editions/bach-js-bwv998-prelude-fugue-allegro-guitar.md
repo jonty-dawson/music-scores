@@ -16,13 +16,14 @@ image:
     JS Bach: Prelude, Fugue and Allegro BWV 998, transcribed for classical guitar.
   width: 800
   height: 740
+preview_caption: Incipit
 ---
 
 {% include edition_content_head.md %}
 <!--more-->
 {% include edition_content_preview_image.md %}
 
-## Notes
+## Edition notes
 
 The guitar versions that I've come across of this work are mostly in D with drop D scordatura, including the one I used when first starting to learn the piece. I was interested in trying an arrangement in E, and found some freely-available online, but didn't get on with some of the editing choices. I don't have any urtext edition, and since images of the autograph manuscript are available via IMSLP and elsewhere, I decided to attempt to transcribe from source. I'm definitely no expert here, and the piece is really a bit beyond my playing ability, so exploring this just for kicks. Bach uses New German organ tablature towards the end of the Allegro, presumably due to running out of page space - notation that was certainly not familiar to me, but making for more fun in researching how to decipher.
 

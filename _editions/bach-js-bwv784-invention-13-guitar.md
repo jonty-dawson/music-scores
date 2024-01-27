@@ -22,7 +22,7 @@ image:
 <!--more-->
 {% include edition_content_preview_image.md %}
 
-## Notes
+## Edition notes
 
 Most guitar transcriptions of Invention No. 13 keep to the original key of A minor, which is a friendly key for the guitar. The upper voice falls in a reasonable range (sounding an octave lower on guitar), but the lower part needs many rearrangements and truncations, which then struggle to retain the shape of the repeated arpeggiated motifs. Since the lower part tends to get compressed in range, squashed between low E and the upper part, the result is also rather deep in the guitar tessitura, so it can sound muddy and gruff.
 

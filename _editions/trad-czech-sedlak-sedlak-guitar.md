@@ -18,9 +18,9 @@ image:
 
 {% include edition_content_head.md %}
 <!--more-->
-{% include edition_content_first_page_image.md %}
+{% include edition_content_preview_image.md %}
 
-## Notes
+## Edition notes
 Here is a little Christmas project of mine - a guitar arrangement of this old Czech tune, that I previously knew only as the Zither Carol. Doing a bit of searching, I learnt that the 19th century Czech folklorist Karel Jaromír Erben included the song 'Sedlák, sedlák' in his collection *Prostonárodní české písně a říkadla* ('Czech Folk Songs and Nursery Rhymes').
 
 It was set with English words by Malcolm Sargent for his Zither Carol ('*Girls and boys, leave your toys, make no noise*'), which appeared in the first book of *Carols for Choirs* in 1961. I remember first singing the carol in primary school in the UK, when it featured on the BBC radio program for schools *Singing Together*.

@@ -21,7 +21,7 @@ image:
 <!--more-->
 {% include edition_content_preview_image.md %}
 
-## Notes
+## Edition notes
 
 In the slow movement of Bach's Organ Sonata No. 4, short phrases are continuously exchanged between the voices - an interplay of repetitive but ever-shifting motifs. My arrangement here has many simplifications to allow playing on the guitar, but I've tried to retain the sense of a methodical, continual pulse underpinning an interwoven texture. I haven't been too concerned with keeping each voice technically distinct and separated, so long as there is an overall feeling of ebb and flow.
 

@@ -16,6 +16,7 @@ image:
     JS Bach: Cello Suite No.1 BWV 1007 arranged for guitar. Prelude, Allemande, Courante, Sarabande, Menuet I & II, Gigue.
   width: 800
   height: 1485
+preview_caption: Incipit
 description: >
   PDF sheet music. Arranged for classical guitar by Jonty Dawson. Movements: Prelude, Allemande, Courante, Sarabande, Menuets, Gigue. Ornamentation suggestions.
 ---
@@ -33,7 +34,7 @@ description: >
 
 {% include edition_content_preview_image.md %}
 
-## Notes
+## Edition notes
 
 There are plenty of fine guitar arrangements of the Bach Cello Suite No.1, but I decided to try and make a version for myself, one that feels friendly to me.
 

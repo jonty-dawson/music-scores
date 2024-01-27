@@ -22,11 +22,18 @@
         <td>Original key </td><td itemprop="original-key">{{ page.original_key }}</td>
       </tr>
     {% endif %}
-    {% if page.arranger %}
+    {% if page.editor and page.editor != '' %}
+      <tr>
+        <td>Editor </td><td itemprop="editor">{{ page.editor }}</td>
+      </tr>
+    {% elsif page.arranger and page.arranger != '' %}
       <tr>
         <td>Arranger </td><td itemprop="arranger">{{ page.arranger }}</td>
       </tr>
     {% endif %}
+    <tr>
+      <td>Edition date </td><td itemprop="edition-date">{{ page.date | date: "%Y-%m-%d" }}</td>
+    </tr>
     <tr>
       <td>Edition PDF </td><td itemprop="edition-pdf"><a href="{{ pdf_path | absolute_url }}"
         data-goatcounter-click="{{pdf_path}}"

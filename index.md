@@ -12,11 +12,14 @@ image:
 <h1>Sheet music for classical guitar</h1>
 ![{{ page.image.alt }}]({{page.image.path | relative_url}}){: width="{{page.image.width}}" height="{{page.image.height}}" alt="{{page.image.alt}}}
 
-<h3>A place to share these arrangements for guitar.</h3>
-<br>
-<section>
+A place for me to share these music scores for guitar. Free PDF sheet music to download, with a short article about each edition.
 
-{% assign sorted_editions = site.editions | sort: 'sort_key' %}
+<br>
+<section id="editions">
+
+{% assign recent_edition_date_utc = site.recent_edition_date | date: "%s" %}
+
+{% assign sorted_editions = site.editions | sort: 'date' | reverse %}
 {% for edition in sorted_editions %}
   <article id="{{ edition.slug }}">
     <div class="edition-card-content">
@@ -28,11 +31,20 @@ image:
       <div class="edition-entry-subheading">
           {{ edition.subheading }}
       </div>
-      {% capture edition_pdf_path %}{{ site.edition_download_dir }}/{{ edition.name}}.pdf{% endcapture %}
+      {% capture edition_preview_path %}{{ site.edition_preview_dir }}/{{ edition.name }}{{ site.edition_preview_suffix }}{% endcapture %}
+      {% capture edition_preview_url %}{{ edition_preview_path | relative_url }}{% endcapture %}
       {% assign read_duration = edition.content | number_of_words  | divided_by: 180 | at_least: 1 %}
+      <div class="edition-card-img" >
+        <a href="{{ site.baseurl }}{{ edition.url }}" >
+          <img src="{{ edition_preview_url }}" width="250" >
+        </a>
+      </div>
+      {% assign edition_date_utc = edition.date | date: "%s" %}
       <span class="edition-tagline">
-        <a href="{{ edition_pdf_path | absolute_url }}" data-goatcounter-click="{{edition_pdf_path}}" data-goatcounter-title="{{edition.name}}.pdf" data-goatcounter-referrer="edition-card-tagline">{{edition.tagline}}</a>
-        <a href="{{ site.baseurl }}{{ edition.url }}">· {{edition.date | date: "%Y-%m-%d"}} · Edition notes</a>
+        {% if edition_date_utc >= recent_edition_date_utc %}
+          {{site.recent_edition_tagline}}
+        {% endif %}
+        Added {{edition.date | date: "%Y-%m-%d"}}
       </span>
     </div>
     <br>
@@ -43,13 +55,24 @@ image:
 </section>
 
 <hr>
-<h3>
-Maybe I'll add some more pieces in the future!
-</h3>
 
 
+## About {#about}
+
+Greetings from Scotland!
+
+I play guitar as a hobby, and occasionally make my own editions of music that I'm interested in learning to play. Mostly these are transcriptions where manuscript facsimiles or other sources exist in the public domain. I've made the sheet music available as pdf files on this site, along with some brief thoughts and explanations about each edition.
+
+I use LilyPond for typesetting the music - it creates good-looking output, and can deal with guitar notation such as fingering markings and barre positions. LilyPond uses text-based input, which makes version control simple - you can find the source files for the editions in my [music-scores GitHub repository](https://github.com/jonty-dawson/music-scores){:data-goatcounter-click="about-src-github"}.
+
+There are new additions occasionally, so check back to see what's new.
+
+I hope you enjoy the music - happy guitar playing!
+
+Jonty Dawson
 <br>
-<br>
-<br>
-<br>
-<br>
+
+<hr>
+Website and sheet music
+
+{{site.copyright}}.
