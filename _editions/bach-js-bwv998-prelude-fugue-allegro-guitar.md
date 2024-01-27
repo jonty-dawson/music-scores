@@ -38,7 +38,7 @@ This is my first attempt at using Lilypond, so it has been a learning exercise f
 * infrequent right-hand fingering indication.
 * the typeface for fingering is sans-serif with an open numeral 4 glyph - I find this leads to less visual confusion than a closed numeral 4, sometimes mistaken with 1 when printed on staff.
 
-## Reference links
+## Links
 
 Bach, JS *BWV 998 Autograph Manuscript image*. <https://commons.wikimedia.org/wiki/File:Bach%2C_Prelude%2C_Fugue_and_Allegro_in_E-flat_major%2C_BWV_998_manuscript.jpg>
 

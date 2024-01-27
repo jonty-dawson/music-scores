@@ -1,5 +1,10 @@
 
+{% if page.collection == "editions" %}
+<title>{{page.title | strip_html}} (PDF Sheet Music)</title>
+{% else %}
 <title>{{page.title | strip_html}}</title>
+{% endif %}
+
 
 <link rel="icon" href="{{ '/favicon.svg' | relative_url }}">
 <meta name="theme-color" content="#f8f8f8">

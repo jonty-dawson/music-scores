@@ -32,7 +32,7 @@ I'm not sure about the outcome - in fact, I'm unconvinced that this is a suitabl
 
 The awkward stretch for the G# at bar 10 could be avoided by simply omitting the note.
 
-## Reference links
+## Links
 
 Bach, JS *BWV 784 autograph manuscript facsimile* <https://opac.rism.info/metaopac/search?View=rism&id=467300932&Language=en>
 
