@@ -25,7 +25,8 @@ subtitle: Sheet music for classical guitar.
 description: >- # this means to ignore newlines until "baseurl:"
   PDF sheet music editions for classical guitar, using Lilypond for notation engraving with full fingering.
    Free PDF download and edition notes.
-   Arrangement and transcription of Bach for guitarra.
+   Arrangements and transcriptions of Bach.
+   Partituras para guitarra clásica.
 baseurl: "/music-scores" # the subpath of your site, e.g. /blog
 url: "https://jonty-dawson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 copyright: Copyright © 2022-2024 Jonty Dawson

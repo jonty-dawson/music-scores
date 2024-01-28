@@ -5,15 +5,15 @@ name: boulanger-lili-d-un-jardin-clair-guitar
 sort_key: boulanger-lili-d-un-jardin-clair-guitar
 date: 2024-1-25
 composer: Lili Boulanger
-work_title: D'un jardin clair ('Of a clear garden')
+work_title: D'un jardin clair ('Of a bright garden')
 instrument: Guitar
 original_key: B major
-subheading: From Trois Morceaux pour Piano (1914), arranged for solo classical guitar.
+subheading: From Trois Morceaux pour Piano (1914), arranged for solo classical guitar. A succinct impressionistic piece, capturing a vivid moment in time.
 arranger: Jonty Dawson
 image:
   path: assets/preview-images/boulanger-lili-d-un-jardin-clair-guitar.png
   alt: >
-    D'un jardin clair ('Of a clear garden') from Trois Morceaux pour Piano by Lili Boulanger sheet music pdf for guitar.
+    D'un jardin clair ('Of a clear/bright garden') from Trois Morceaux pour Piano by Lili Boulanger sheet music pdf for guitar.
   width: 800
   height: 400
 ---

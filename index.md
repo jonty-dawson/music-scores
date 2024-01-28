@@ -63,7 +63,7 @@ Greetings from Scotland!
 
 I play guitar as a hobby, and occasionally make my own editions of music that I'm interested in learning to play. Mostly these are transcriptions where manuscript facsimiles or other sources exist in the public domain. I've made the sheet music available as pdf files on this site, along with some brief thoughts and explanations about each edition.
 
-I use LilyPond for typesetting the music - it creates good-looking output, and can deal with guitar notation such as fingering markings and barre positions. LilyPond uses text-based input, which makes version control simple - you can find the source files for the editions in my [music-scores GitHub repository](https://github.com/jonty-dawson/music-scores){:data-goatcounter-click="about-src-github"}.
+I use LilyPond for typesetting the music - it creates good-looking output, and can deal with guitar notation such as fingering and barré markings. LilyPond uses text-based input, which makes version control simple - you can find the source files for the editions in my [music-scores GitHub repository](https://github.com/jonty-dawson/music-scores){:data-goatcounter-click="about-src-github"}.
 
 There are new additions occasionally, so check back to see what's new.
 
