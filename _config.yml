@@ -23,9 +23,10 @@
 title: Music Scores
 subtitle: Sheet music for classical guitar.
 description: >- # this means to ignore newlines until "baseurl:"
-  PDF sheet music editions for classical guitar, using Lilypond for notation engraving with full fingering.
+  PDF sheet music editions for classical guitar.
    Free PDF download and edition notes.
-   Arrangements and transcriptions of Bach.
+   Arrangements and transcriptions of Bach with fingering guides for learning.
+   Notation engraving with Lilypond.
    Partituras para guitarra clásica.
 baseurl: "/music-scores" # the subpath of your site, e.g. /blog
 url: "https://jonty-dawson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
