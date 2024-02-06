@@ -4,7 +4,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign header_anchors = site.header_anchors -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.header_title | escape }}</a>
 
 
 
@@ -21,7 +21,7 @@
       {%- if header_anchors -%}
         <div class="trigger">
           {%- for anchor in header_anchors -%}
-            <a class="page-link" href="{{ "/" | relative_url}}#{{anchor.id}}">{{ anchor.title | escape }}</a>
+            <a class="page-link" href="{{ '/' | relative_url}}#{{anchor.id}}" data-goatcounter-click="header-{{anchor.id}}" data-goatcounter-referrer="{{page.name}}">{{ anchor.title | escape }}</a>
           {%- endfor -%}
         </div>
       {%- elsif page_paths -%}

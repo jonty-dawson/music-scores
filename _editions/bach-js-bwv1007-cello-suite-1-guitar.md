@@ -1,6 +1,6 @@
 ---
 layout: page
-title: JS Bach | Cello Suite No.1 BWV 1007 for guitar
+title: __JS Bach__ \| Cello Suite No.1 BWV 1007 *for guitar*
 name: bach-js-bwv1007-cello-suite-1-guitar
 sort_key: bach-js-bwv-1007
 date: 2022-8-30

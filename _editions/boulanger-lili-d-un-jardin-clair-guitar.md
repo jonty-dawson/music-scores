@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lili Boulanger | D'un jardin clair
+title: __Lili Boulanger__ \| D'un jardin clair *for guitar*
 name: boulanger-lili-d-un-jardin-clair-guitar
 sort_key: boulanger-lili-d-un-jardin-clair-guitar
 date: 2024-1-25

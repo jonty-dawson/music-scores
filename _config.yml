@@ -20,14 +20,10 @@
 
 # see also: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
 
-title: Music Scores
+header_title: Music Scores
 subtitle: Sheet music for classical guitar.
-description: >- # this means to ignore newlines until "baseurl:"
-  PDF sheet music editions for classical guitar.
-   Free PDF download and edition notes.
-   Arrangements and transcriptions of Bach with fingering guides for learning.
-   Notation engraving with Lilypond.
-   Partituras para guitarra clásica.
+title: Music Scores \| Classical guitar sheet music PDF editions from Jonty Dawson.
+
 baseurl: "/music-scores" # the subpath of your site, e.g. /blog
 url: "https://jonty-dawson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 copyright: Copyright © 2022-2024 Jonty Dawson

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: JS Bach | Prelude, Fugue and Allegro BWV 998 for guitar
+title: __JS Bach__ \| Prelude, Fugue and Allegro BWV 998 *for guitar*
 name: bach-js-bwv998-prelude-fugue-allegro-guitar
 sort_key: bach-js-bwv-0998
 date: 2022-7-28

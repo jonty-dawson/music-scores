@@ -1,10 +1,17 @@
 ---
 layout: home
-title: Music Scores - PDF sheet music for classical guitar | Jonty Dawson
+title: Music Scores \| Jonty Dawson
 name: music-scores-index
+description: >-
+  Sheet music PDF editions for classical guitar.
+   JS Bach transcriptions for guitar.
+   Free PDF download with edition notes and analysis.
+   Arrangements to add to your guitar repertoire list.
+   Quality notation engraving using LilyPond.
+   Partituras para guitarra clásica.
 image:
   path: assets/images/banner-guitar-neck.jpg
-  alt: Banner image of a classical guitar fretboard
+  alt: Classical guitar sheet music from Jonty Dawson. Free PDF editions.
   width: 1920
   height: 403
 ---
@@ -25,7 +32,7 @@ A place for me to share these music scores for guitar. Free PDF sheet music to d
     <div class="edition-card-content">
       <h2 class="edition-entry-title">
         <a href="{{ site.baseurl }}{{ edition.url }}">
-          {{ edition.title }}
+          {{ edition.title | markdownify }}
         </a>
       </h2>
       <div class="edition-entry-subheading">

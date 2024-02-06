@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Traditional Czech | Sedlák, sedlák
+title: __Traditional Czech__ \| Sedlák, sedlák
 name: trad-czech-sedlak-sedlak-guitar
 sort_key: trad-czech-sedlak-sedlak-guitar
 date: 2023-12-30

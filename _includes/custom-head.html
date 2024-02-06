@@ -1,8 +1,8 @@
 
 {% if page.collection == "editions" %}
-<title>{{page.title | strip_html}} (PDF Sheet Music)</title>
+<title>{{page.title | markdownify | strip_html}} (PDF Sheet Music)</title>
 {% else %}
-<title>{{page.title | strip_html}}</title>
+<title>{{page.title | markdownify | strip_html}}</title>
 {% endif %}
 
 
@@ -17,6 +17,7 @@
         <meta name="thumbnail" content="{{ page.image | absolute_url }}" />
     {% endif %}
 {% endif %}
+
 
 {% if page.description %}
     <meta name="twitter:description" content="{{ page.description | markdownify | strip_html | normalize_whitespace }}" />

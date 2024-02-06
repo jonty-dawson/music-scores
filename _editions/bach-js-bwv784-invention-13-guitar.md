@@ -1,6 +1,6 @@
 ---
 layout: page
-title: JS Bach | Invention No. 13 BWV 784 for guitar
+title: __JS Bach__ \| Invention No. 13 BWV 784 *for guitar*
 name: bach-js-bwv784-invention-13-guitar
 sort_key: bach-js-bwv-0784
 date: 2023-9-20
