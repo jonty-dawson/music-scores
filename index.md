@@ -1,14 +1,10 @@
 ---
 layout: home
-title: Music Scores \| Jonty Dawson
+title: Music Scores · classical guitar PDF sheet
 name: music-scores-index
 description: >-
   Sheet music PDF editions for classical guitar.
-   JS Bach transcriptions for guitar.
-   Free PDF download with edition notes and analysis.
-   Arrangements to add to your guitar repertoire list.
-   Quality notation engraving using LilyPond.
-   Partituras para guitarra clásica.
+    Download free PDF arrangments and transcriptions of guitar repertoire with notes and analysis.
 image:
   path: assets/edition-cards/default-1200x628.card.jpg
   alt: Classical guitar sheet music from Jonty Dawson. Free PDF editions.
@@ -24,7 +20,7 @@ banner_image:
 <h1>Sheet music for classical guitar</h1>
 ![{{ page.banner_image.alt }}]({{page.banner_image.path | relative_url}}){: width="{{page.banner_image.width}}" height="{{page.banner_image.height}}" alt="{{page.banner_image.alt}}}
 
-A place for me to share these music scores for guitar. Free PDF sheet music to download, with a short article about each edition.
+A place for me to share these music scores for guitar. Free PDF sheet music to download, with a short article about each edition. There are Bach transcriptions, and some arrangements of pieces by other composers that could make interesting additions to a guitar repertoire list.
 
 <br>
 <section id="editions">
@@ -48,7 +44,7 @@ A place for me to share these music scores for guitar. Free PDF sheet music to d
       {% assign read_duration = edition.content | number_of_words  | divided_by: 180 | at_least: 1 %}
       <div class="edition-card-img" >
         <a href="{{ site.baseurl }}{{ edition.url }}" >
-          <img src="{{ edition.image.path | relative_url }}"  >
+          <img src="{{ edition.image.path | relative_url }}" alt="{{ edition.image.alt }}" >
         </a>
       </div>
       {% assign edition_date_utc = edition.date | date: "%s" %}

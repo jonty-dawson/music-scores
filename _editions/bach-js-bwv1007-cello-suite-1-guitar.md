@@ -1,6 +1,6 @@
 ---
 layout: page
-title: __JS Bach__ \| Cello Suite No.1 BWV 1007 *for guitar*
+title: __JS Bach__ Cello Suite No.1 BWV 1007 *for guitar*
 name: bach-js-bwv1007-cello-suite-1-guitar
 sort_key: bach-js-bwv-1007
 date: 2022-8-30
@@ -13,13 +13,13 @@ subheading: An arrangement for classical guitar with fingering and ornamentation
 image:
   path: assets/edition-cards/bach-js-bwv1007-cello-suite-1-guitar.card.jpg
   alt: >
-    Sheet music PDF. JS Bach: Cello Suite No.1 BWV 1007 arranged for guitar. Prelude, Allemande, Courante, Sarabande, Menuet I & II, Gigue.
+    Sheet music PDF. JS Bach: Cello Suite No.1 BWV 1007 arranged for guitar. Prelude, Allemande, Courante, Sarabande, Menuet I & II, Gigue. A Bach transcription to add to your guitar repertoire list.
 preview_image:
   width: 800
   height: 1485
 preview_caption: Incipit
 description: >
-  PDF sheet music. Arranged for classical guitar by Jonty Dawson. Movements: Prelude, Allemande, Courante, Sarabande, Menuets, Gigue. Ornamentation suggestions.
+  PDF sheet music. Arranged for classical guitar by Jonty Dawson. Prelude, Allemande, Courante, Sarabande, Menuet I & II, Gigue. Ornamentation suggestions.
 ---
 
 {% include edition_content_head.md %}

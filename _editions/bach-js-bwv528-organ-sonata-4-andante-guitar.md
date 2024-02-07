@@ -1,6 +1,6 @@
 ---
 layout: page
-title: __JS Bach__ \| Andante from Organ Sonata No. 4 BWV 528 *for guitar*
+title: __JS Bach__ Andante from Organ Sonata No. 4 BWV 528 *for guitar*
 name: bach-js-bwv528-organ-sonata-4-andante-guitar
 sort_key: bach-js-bwv-0528
 date: 2023-8-14
