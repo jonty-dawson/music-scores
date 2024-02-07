@@ -11,9 +11,10 @@ instrument: Guitar
 original_key: G major
 subheading: An arrangement for classical guitar with fingering and ornamentation suggestions.
 image:
-  path: assets/preview-images/bach-js-bwv1007-cello-suite-1-guitar.preview.png
+  path: assets/edition-cards/bach-js-bwv1007-cello-suite-1-guitar.card.jpg
   alt: >
-    JS Bach: Cello Suite No.1 BWV 1007 arranged for guitar. Prelude, Allemande, Courante, Sarabande, Menuet I & II, Gigue.
+    Sheet music PDF. JS Bach: Cello Suite No.1 BWV 1007 arranged for guitar. Prelude, Allemande, Courante, Sarabande, Menuet I & II, Gigue.
+preview_image:
   width: 800
   height: 1485
 preview_caption: Incipit

@@ -10,9 +10,10 @@ work_number: BWV 528
 instrument: Guitar
 subheading: My arrangement for classical guitar of this meditative slow movement.
 image:
-  path: assets/preview-images/bach-js-bwv528-organ-sonata-4-andante-guitar.png
+  path: assets/edition-cards/bach-js-bwv528-organ-sonata-4-andante-guitar.card.jpg
   alt: >
-    JS Bach: Andante from Organ Sonata No. 4 in E minor BWV 528, arranged for classical guitar.
+    Sheet music PDF. JS Bach: Andante from Organ Sonata No. 4 in E minor BWV 528, arranged for classical guitar.
+preview_image:
   width: 800
   height: 404
 ---

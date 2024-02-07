@@ -10,9 +10,10 @@ instrument: Guitar
 subheading: An edition based on the San Salvador 1942 manuscript.
 editor: Jonty Dawson
 image:
-  path: assets/preview-images/barrios-agustin-julia-florida-guitar.png
+  path: assets/edition-cards/barrios-agustin-julia-florida-guitar.card.jpg
   alt: >
-    Julia Florida by Agustín Barrios Mangoré sheet music pdf for guitar.
+    Sheet music PDF. Julia Florida by Agustín Barrios Mangoré, for guitar.
+preview_image:
   width: 800
   height: 400
 ---

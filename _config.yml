@@ -28,8 +28,10 @@ baseurl: "/music-scores" # the subpath of your site, e.g. /blog
 url: "https://jonty-dawson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 copyright: Copyright © 2022-2024 Jonty Dawson
 edition_preview_suffix: .preview.png
+edition_card_suffix: .card.jpg
 edition_download_dir: assets/downloads
 edition_preview_dir: assets/preview-images
+edition_card_dir: assets/edition-cards
 excerpt_separator: <!--more-->
 
 # Build settings
@@ -62,6 +64,10 @@ defaults:
         type: Article
       preview_caption: Sample
       arranger: Jonty Dawson
+      image:
+        path: assets/edition-cards/default-1200x628.card.jpg
+        width: 1200
+        height: 628
 
 recent_edition_date: 2023-12-01
 recent_edition_tagline: "✨NEW✨ · "

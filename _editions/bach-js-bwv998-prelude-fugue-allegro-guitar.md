@@ -11,9 +11,10 @@ instrument: Guitar
 original_key: E&#x266D; major
 subheading: A transcription for classical guitar in E, rather than the more usual D.
 image:
-  path: assets/preview-images/bach-js-bwv998-prelude-fugue-allegro-guitar.preview.png
+  path: assets/edition-cards/bach-js-bwv998-prelude-fugue-allegro-guitar.card.jpg
   alt: >
-    JS Bach: Prelude, Fugue and Allegro BWV 998, transcribed for classical guitar.
+    Sheet music PDF. JS Bach: Prelude, Fugue and Allegro BWV 998, transcribed for classical guitar.
+preview_image:
   width: 800
   height: 740
 preview_caption: Incipit

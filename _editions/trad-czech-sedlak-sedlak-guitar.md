@@ -9,9 +9,10 @@ work_title: Sedlák, sedlák
 instrument: Guitar
 subheading: My arrangement for classical guitar of this Czech folk tune, also known as the Zither Carol.
 image:
-  path: assets/preview-images/trad-czech-sedlak-sedlak-guitar.png
+  path: assets/edition-cards/trad-czech-sedlak-sedlak-guitar.card.jpg
   alt: >
-    Sedlák, sedlák (Zither Carol) arranged for classical guitar.
+    Sheet music PDF. Sedlák, sedlák (Zither Carol) arranged for classical guitar.
+preview_image:
   width: 800
   height: 404
 ---

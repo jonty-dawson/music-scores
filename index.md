@@ -10,14 +10,19 @@ description: >-
    Quality notation engraving using LilyPond.
    Partituras para guitarra clásica.
 image:
-  path: assets/images/banner-guitar-neck.jpg
+  path: assets/edition-cards/default-1200x628.card.jpg
   alt: Classical guitar sheet music from Jonty Dawson. Free PDF editions.
+  width: 1200
+  height: 628
+banner_image:
+  path: assets/images/banner-guitar-neck.jpg
+  alt: Banner image of a classical guitar fretboard.
   width: 1920
   height: 403
 ---
 
 <h1>Sheet music for classical guitar</h1>
-![{{ page.image.alt }}]({{page.image.path | relative_url}}){: width="{{page.image.width}}" height="{{page.image.height}}" alt="{{page.image.alt}}}
+![{{ page.banner_image.alt }}]({{page.banner_image.path | relative_url}}){: width="{{page.banner_image.width}}" height="{{page.banner_image.height}}" alt="{{page.banner_image.alt}}}
 
 A place for me to share these music scores for guitar. Free PDF sheet music to download, with a short article about each edition.
 
@@ -38,12 +43,12 @@ A place for me to share these music scores for guitar. Free PDF sheet music to d
       <div class="edition-entry-subheading">
           {{ edition.subheading }}
       </div>
-      {% capture edition_preview_path %}{{ site.edition_preview_dir }}/{{ edition.name }}{{ site.edition_preview_suffix }}{% endcapture %}
-      {% capture edition_preview_url %}{{ edition_preview_path | relative_url }}{% endcapture %}
+
+
       {% assign read_duration = edition.content | number_of_words  | divided_by: 180 | at_least: 1 %}
       <div class="edition-card-img" >
         <a href="{{ site.baseurl }}{{ edition.url }}" >
-          <img src="{{ edition_preview_url }}" width="250" >
+          <img src="{{ edition.image.path | relative_url }}"  >
         </a>
       </div>
       {% assign edition_date_utc = edition.date | date: "%s" %}
