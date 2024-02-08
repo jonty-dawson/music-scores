@@ -4,6 +4,7 @@ title: __JS Bach__ Invention No. 13 BWV 784 *for guitar*
 name: bach-js-bwv784-invention-13-guitar
 sort_key: bach-js-bwv-0784
 date: 2023-9-20
+last_modified_at: 2024-02-07 22:00:00
 composer: Johann Sebastian Bach
 work_title: Invention No. 13
 original_key: A minor

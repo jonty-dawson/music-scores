@@ -68,6 +68,11 @@ defaults:
         path: assets/edition-cards/default-1200x628.card.jpg
         width: 1200
         height: 628
+  -
+    scope:
+      path: "assets/downloads/*.pdf"
+    values:
+      sitemap: false
 
 recent_edition_date: 2023-12-01
 recent_edition_tagline: "✨NEW✨ · "

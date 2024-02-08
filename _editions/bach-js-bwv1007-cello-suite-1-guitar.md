@@ -4,6 +4,7 @@ title: __JS Bach__ Cello Suite No.1 BWV 1007 *for guitar*
 name: bach-js-bwv1007-cello-suite-1-guitar
 sort_key: bach-js-bwv-1007
 date: 2022-8-30
+last_modified_at: 2024-02-07 22:00:00
 composer: Johann Sebastian Bach
 work_title: Cello Suite No. 1
 work_number: BWV 1007
