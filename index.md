@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Music Scores · classical guitar PDF sheet
+title: Music Scores · classical guitar PDF sheet music
 name: music-scores-index
 description: >-
   Sheet music PDF editions for classical guitar.
@@ -15,11 +15,11 @@ banner_image:
   alt: Banner image of a classical guitar fretboard.
   width: 1920
   height: 403
-last_modified_at: 2024-02-07 19:04:00
+last_modified_at: 2024-02-08 16:11:00
 ---
 
 <h1>Sheet music for classical guitar</h1>
-![{{ page.banner_image.alt }}]({{page.banner_image.path | relative_url}}){: width="{{page.banner_image.width}}" height="{{page.banner_image.height}}" alt="{{page.banner_image.alt}}}
+![{{ page.image.alt }}]({{page.image.path | relative_url}}){: width="{{page.image.width}}" height="{{page.image.height}}" alt="{{page.image.alt}}}
 
 A place for me to share these music scores for guitar. Free PDF sheet music to download, with a short article about each edition. There are Bach transcriptions, and some arrangements of pieces by other composers that could make interesting additions to a guitar repertoire list.
 
@@ -67,6 +67,7 @@ A place for me to share these music scores for guitar. Free PDF sheet music to d
 
 
 ## About {#about}
+![{{ page.banner_image.alt }}]({{page.banner_image.path | relative_url}}){: width="{{page.banner_image.width}}" height="{{page.banner_image.height}}" alt="{{page.banner_image.alt}}}
 
 Greetings from Scotland!
 
