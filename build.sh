@@ -74,5 +74,6 @@ build "bach-js-bwv1007-cello-suite-1-guitar"
 build "trad-czech-sedlak-sedlak-guitar" true
 build "barrios-agustin-julia-florida-guitar" true
 build "boulanger-lili-d-un-jardin-clair-guitar" true
+build "dawson-jonty-on-winter-ground-guitar" true
 
 exit 0
