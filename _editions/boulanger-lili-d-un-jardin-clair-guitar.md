@@ -11,6 +11,7 @@ instrument: Guitar
 original_key: B major
 subheading: From Trois Morceaux pour Piano (1914), arranged for solo classical guitar. A succinct impressionistic piece, capturing a vivid moment in time.
 arranger: Jonty Dawson
+page_count: 2
 image:
   path: assets/edition-cards/boulanger-lili-d-un-jardin-clair-guitar.card.jpg
   alt: >

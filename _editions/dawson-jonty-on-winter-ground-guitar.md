@@ -7,7 +7,7 @@ date: 2024-2-20
 composer: Jonty Dawson
 work_title: On winter ground
 instrument: Guitar
-subheading: A short uplifting piece for solo guitar.
+subheading: A short uplifting piece for guitar.
 page_count: 3
 arranger: ""
 preview_image:

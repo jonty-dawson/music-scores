@@ -9,6 +9,7 @@ composer: Johann Sebastian Bach
 work_title: Cello Suite No. 1
 work_number: BWV 1007
 instrument: Guitar
+page_count: 11
 original_key: G major
 subheading: An arrangement for classical guitar with fingering and ornamentation suggestions.
 image:

@@ -62,7 +62,7 @@ defaults:
     values:
       seo:
         type: Article
-      preview_caption: Sample
+      preview_caption: ""
       arranger: Jonty Dawson
       image:
         path: assets/edition-cards/default-1200x628.card.jpg

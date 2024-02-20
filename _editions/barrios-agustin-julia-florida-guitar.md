@@ -10,6 +10,7 @@ work_title: Julia Florida
 instrument: Guitar
 subheading: An edition based on the San Salvador 1942 manuscript.
 editor: Jonty Dawson
+page_count: 2
 image:
   path: assets/edition-cards/barrios-agustin-julia-florida-guitar.card.jpg
   alt: >

@@ -34,6 +34,11 @@
     <tr>
       <td>Edition date </td><td itemprop="edition-date">{{ page.date | date: "%Y-%m-%d" }}</td>
     </tr>
+    {% if page.page_count %}
+      <tr>
+        <td>Page count </td><td itemprop="page-count">{{ page.page_count }}</td>
+      </tr>
+    {% endif %}
     <tr>
       <td>Edition PDF </td><td itemprop="edition-pdf"><a href="{{ pdf_path | absolute_url }}"
         data-goatcounter-click="{{pdf_path}}"

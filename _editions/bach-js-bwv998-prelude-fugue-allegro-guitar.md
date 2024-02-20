@@ -10,6 +10,7 @@ composer: Johann Sebastian Bach
 work_title: Prelude, Fugue and Allegro
 work_number: BWV 998
 instrument: Guitar
+page_count: 11
 original_key: E&#x266D; major
 subheading: A transcription for classical guitar in E, rather than the more usual D.
 image:
