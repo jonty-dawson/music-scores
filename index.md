@@ -28,7 +28,7 @@ A place for me to share these music scores for guitar. Free PDF sheet music to d
 
 {% assign recent_edition_date_utc = site.recent_edition_date | date: "%s" %}
 
-{% assign sorted_editions = site.editions | sort: 'date' | reverse %}
+{% assign sorted_editions = site.editions | where_exp: "edition", "edition.composer != 'Jonty Dawson'" | sort: 'date' | reverse %}
 {% for edition in sorted_editions %}
   <article id="{{ edition.slug }}">
     <div class="edition-card-content">
@@ -60,8 +60,38 @@ A place for me to share these music scores for guitar. Free PDF sheet music to d
   </article>
 
 {% endfor %}
-
 </section>
+<hr>
+
+## Original compositions
+{% assign sorted_editions = site.editions | where_exp: "edition", "edition.composer == 'Jonty Dawson'" | sort: 'date' | reverse %}
+{% for edition in sorted_editions %}
+  <article id="{{ edition.slug }}">
+    <div class="edition-card-content">
+      <h2 class="edition-entry-title">
+        <a href="{{ site.baseurl }}{{ edition.url }}">
+          {{ edition.title | markdownify }}
+        </a>
+      </h2>
+      <div class="edition-entry-subheading">
+          {{ edition.subheading }}
+      </div>
+
+
+      <div class="edition-card-img" >
+        <a href="{{ site.baseurl }}{{ edition.url }}" >
+          <img src="{{ edition.image.path | relative_url }}" alt="{{ edition.image.alt }}" >
+        </a>
+      </div>
+      {% assign edition_date_utc = edition.date | date: "%s" %}
+      <span class="edition-tagline">
+        Added {{edition.date | date: "%Y-%m-%d"}}
+      </span>
+    </div>
+    <br>
+  </article>
+
+{% endfor %}
 
 <hr>
 
