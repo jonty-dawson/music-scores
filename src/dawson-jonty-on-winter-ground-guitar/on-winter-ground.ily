@@ -63,9 +63,9 @@ upper =  \relative cs'' {
     \once \barreSpannerText #"VII" #0
     \once \barreBracket #0 #-6
     <g=' _~ cs='' \fingeringShift #UP -4> 8  \startTextSpan
-    <g=' b=' > 4 \stopTextSpan
-    <a \fingeringShift #DOWN -1> 8
-    <fs=' -3> 4
+    <g=' b=' > 4
+    <a -4> 8 \stopTextSpan
+    <fs=' \2-2> 4
     \once \barreSpannerText #"III" #0
     \once \barreBracket #0 #-11
     g 8 \startTextSpan
@@ -462,11 +462,11 @@ upper =  \relative cs'' {
     \once \override Score.MetronomeMark.padding = #4
     \tempo \markup { \upright \bold \normalsize "in time" }
     \once \fingeringAboveLeftHead
-    <d=' fs=' -3> 2 \p
+    <d=' fs=' -2> 2 \p
     r8
     e16 -0 (
-    fs -1 )
-    g 8 -3
+    fs -2 )
+    g 8 -4
     fs 16
     e
 
@@ -787,9 +787,9 @@ lowerInner =  \relative a {
 
     | % 17
     s4
-    <e= ~ b'=>4
-    <e= cs'='>4
-    g=
+    <d= ~ b'= ~>4
+    <b'=>4
+    <g= cs='>
 
 
     | % 18
@@ -1137,8 +1137,9 @@ lower =  \relative a, {
 
     | % 17
     e=, 2
-    a=, 4.
-    a 8
+    cs'= 4
+    r8
+    a 8 -.
 
     | % 18
     d= 4 -0
@@ -1274,14 +1275,12 @@ lower =  \relative a, {
     <a,=, e'=>
 
     | % 45
-    \once \set glissandoMap = #'((0 . 0))
-    <b=, _2> 4~ \glissando
-    \once \override NoteColumn.glissando-skip = ##t
+    <b=, _1> 4~
     <b=, g'= ~> 4
-    <c= _2 g'=> 2
+    <c= _3 g'=> 2
 
     | % 46
-    <b=, _2> 4~
+    <b=, > 4~
     <b=,  g'= ~> 4
     <c=  g'=> 2
 

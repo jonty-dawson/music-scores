@@ -5,14 +5,14 @@ mSkipTypesetting = ##f
 
 \header {
     work_title = "On winter ground"
-    composer = "Jonty Dawson"
+    composer = \markup { \abs-fontsize #12 "Jonty Dawson" }
     composition_date = "2024"
     subtitle = "for guitar"
 
-    title = \markup { \concat { \fromproperty #'header:composer " - " \fromproperty #'header:work_title } }
+    title = \markup { \fromproperty #'header:work_title }
     copyright = "Copyright © 2024 Jonty Dawson"
-    tagline = \markup { \concat {\fromproperty #'header:composer " • " \fromproperty #'header:work_title " (" \fromproperty #'header:composition_date ")" }}
-    version = "1.0.0"
+    tagline = \markup { \concat {"Jonty Dawson • " \fromproperty #'header:work_title }}
+    version = "1.0.1"
 }
 
 \include "../common/solo-guitar-layout.ily"
@@ -42,7 +42,7 @@ mSkipTypesetting = ##f
             \time 4/4
 
             \once \override Score.MetronomeMark.outside-staff-padding = #2
-            \tempo \markup { \fontsize #0 "Slow" } 4 = 56
+            \tempo \markup { \fontsize #0 "Slow" } 4 = 60
 
             \override Staff.DynamicTextSpanner.bound-details.left.padding = #1.0
             \override Staff.DynamicTextSpanner.bound-details.right.padding = #1.0
