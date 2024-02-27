@@ -15,7 +15,7 @@ banner_image:
   alt: Banner image of a classical guitar fretboard.
   width: 1920
   height: 403
-last_modified_at: 2024-02-20 17:53:00
+last_modified_at: 2024-02-27 14:27:00
 ---
 
 <h1>Sheet music for classical guitar</h1>
@@ -63,7 +63,7 @@ A place for me to share these music scores for guitar. Free PDF sheet music to d
 </section>
 <hr>
 
-## Original compositions
+## Composed by me
 {% assign sorted_editions = site.editions | where_exp: "edition", "edition.composer == 'Jonty Dawson'" | sort: 'date' | reverse %}
 {% for edition in sorted_editions %}
   <article id="{{ edition.slug }}">
