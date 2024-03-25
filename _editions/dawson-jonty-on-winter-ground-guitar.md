@@ -20,7 +20,7 @@ preview_image:
 {% include edition_content_head.md %}
 <!--more-->
 
-<iframe width="740" height="418" src="https://www.youtube.com/embed/tfC6-7fMaIk" title="On winter ground" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe name="youtube-embed" class="youtube-video" src="https://www.youtube-nocookie.com/embed/tfC6-7fMaIk?rel=0" title="{{page.title}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ---
 {% include edition_content_preview_image.md %}
 
