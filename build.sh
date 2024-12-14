@@ -28,6 +28,7 @@ downloads_dir=./gh-pages/assets/downloads/
 preview_images_dir=./gh-pages/assets/preview-images/
 lilypond_options="-dno-point-and-click -o ../../out/"
 # -dresolution=112.7 for 800px width, -dpng-width has defect that causes empty output when height > width
+# -dresolution=232.3 for 1920px width
 lilypond_options_preview="-dno-print-pages -fpng -dresolution=112.7 -dpreview -o ../../out/ --define-default=anti-alias-factor=8"
 lilypond_options_preview_full_page="-fpng -dresolution=96.8 --define-default=anti-alias-factor=8"
 # --define-default=anti-alias-factor=4
@@ -67,13 +68,14 @@ function build()
 }
 
 mkdir -p $out_dir
-build "bach-js-bwv528-organ-sonata-4-andante-guitar"
-build "bach-js-bwv784-invention-13-guitar"
+build "bach-js-bwv528-organ-sonata-4-andante-guitar" true
+build "bach-js-bwv784-invention-13-guitar" true
 build "bach-js-bwv998-prelude-fugue-allegro-guitar"
 build "bach-js-bwv1007-cello-suite-1-guitar"
 build "trad-czech-sedlak-sedlak-guitar" true
 build "barrios-agustin-julia-florida-guitar" true
 build "boulanger-lili-d-un-jardin-clair-guitar" true
 build "dawson-jonty-on-winter-ground-guitar" true
+build "trad-catalan-el-noi-de-la-mare-guitar" true
 
 exit 0
