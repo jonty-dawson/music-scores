@@ -82,6 +82,7 @@ minima:
   skin: classic
 
   social_links:
+    - { platform: youtube, user_url: "https://youtube.com/@jontydawson" }
     - { platform: twitter, user_url: "https://twitter.com/JontyDawson" }
     - { platform: github, user_url: "https://github.com/jonty-dawson" }
 
@@ -94,6 +95,7 @@ author:
 social:
   name: Jonty Dawson
   links:
+    - https://youtube.com/@jontydawson
     - https://twitter.com/JontyDawson
     - https://github.com/jonty-dawson
     - http://www.linkedin.com/in/jontydawson
