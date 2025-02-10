@@ -12,14 +12,19 @@
         <td>Work number </td><td itemprop="work-number">{{ page.work_number }}</td>
       </tr>
     {% endif %}
-    {% if page.instrument %}
+    {% if page.composition_year %}
       <tr>
-        <td>Instrument </td><td itemprop="instrument">{{ page.instrument }}</td>
+        <td>Composition year </td><td itemprop="composition-year">{{ page.composition_year }}</td>
       </tr>
     {% endif %}
     {% if page.original_key %}
       <tr>
         <td>Original key </td><td itemprop="original-key">{{ page.original_key }}</td>
+      </tr>
+    {% endif %}
+    {% if page.instrument %}
+      <tr>
+        <td>Instrument </td><td itemprop="instrument">{{ page.instrument }}</td>
       </tr>
     {% endif %}
     {% if page.editor and page.editor != '' %}

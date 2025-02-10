@@ -15,7 +15,7 @@ banner_image:
   alt: Banner image of a classical guitar fretboard.
   width: 1920
   height: 403
-last_modified_at: 2024-02-27 14:27:00
+last_modified_at: 2024-02-08 16:11:00
 ---
 
 <h1>Sheet music for classical guitar</h1>
@@ -95,6 +95,24 @@ A place for me to share these music scores for guitar. Free PDF sheet music to d
 
 <hr>
 
+## Videos {#videos}
+Here are a couple of home recordings of me playing pieces from this site. Head over to my [YouTube channel](https://youtube.com/@jontydawson) for more.
+
+
+<div class="youtube-preview-content">
+  <a href="https://www.youtube.com/watch?v=qZRgmBpqxLs&embeds_referring_euri={{page.url | absolute_url | cgi_escape}}" target="_blank">
+    <img src="assets/images/youtube-thumbnail-el-noi-de-la-mare.png" width="528" height="297" alt="Watch on YouTube">
+  </a>
+</div>
+
+<br>
+<div class="youtube-preview-content">
+  <a href="https://www.youtube.com/watch?v=tfC6-7fMaIk&embeds_referring_euri={{page.url | absolute_url | cgi_escape}}" target="_blank">
+    <img src="assets/images/youtube-thumbnail-on-winter-ground.png" width="528" height="297" alt="Watch on YouTube">
+  </a>
+</div>
+
+<hr>
 
 ## About {#about}
 ![{{ page.banner_image.alt }}]({{page.banner_image.path | relative_url}}){: width="{{page.banner_image.width}}" height="{{page.banner_image.height}}" alt="{{page.banner_image.alt}}}

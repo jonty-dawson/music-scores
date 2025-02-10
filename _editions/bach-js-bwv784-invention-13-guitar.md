@@ -11,7 +11,6 @@ original_key: A minor
 work_number: BWV 784
 instrument: Guitar
 page_count: 2
-preview_caption: Sample.
 subheading: The two-part invention in A minor, transposed into B minor in this arrangement for classical guitar.
 image:
   path: assets/edition-cards/bach-js-bwv784-invention-13-guitar.card.jpg

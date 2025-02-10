@@ -45,6 +45,7 @@ plugins:
 
 header_anchors:
   - { id: "editions", title: "Editions" }
+  - { id: "videos", title: "Videos" }
   - { id: "about", title: "About" }
 # header_pages:
 #  - about.md

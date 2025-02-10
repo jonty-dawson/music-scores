@@ -45,6 +45,13 @@ table {
     margin-bottom: 4px;
 }
 
+.youtube-preview-content {
+    background-color: $brand-color-light;
+    padding: 1px;
+    width:fit-content;
+    border-radius: 0px;
+
+}
 
 tbody td:nth-child(1) {
     color: $table-first-col-color;
@@ -142,9 +149,4 @@ h2.highlight {
 
 .site-nav .page-link {
     color: $brand-color-dark;
-}
-
-.youtube-video {
-    aspect-ratio: 16 / 9;
-    width: 100%;
 }

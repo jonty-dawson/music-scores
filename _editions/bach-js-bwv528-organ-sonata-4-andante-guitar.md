@@ -10,7 +10,6 @@ work_title: Organ Sonata No. 4 in E minor, II. Andante
 work_number: BWV 528
 instrument: Guitar
 page_count: 4
-preview_caption: Sample.
 subheading: My arrangement for classical guitar of this meditative slow movement.
 image:
   path: assets/edition-cards/bach-js-bwv528-organ-sonata-4-andante-guitar.card.jpg
