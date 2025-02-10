@@ -45,8 +45,12 @@ function build()
          if [ $preview_is_whole_first_page ]; then
             echo "preview_is_whole_first_page"
             lilypond $lilypond_options_preview_full_page $name.ly
-            mv -f $name-page1.png ../../$out_dir/$name.preview.png
-            rm $name-page*.png
+            if [ -f $name-page1.png ]; then
+               mv -f $name-page1.png ../../$out_dir/$name.preview.png
+               rm $name-page*.png
+            else
+               mv -f $name.png ../../$out_dir/$name.preview.png
+            fi
          else
             lilypond $lilypond_options_preview $name.ly
          fi
@@ -72,10 +76,11 @@ build "bach-js-bwv528-organ-sonata-4-andante-guitar" true
 build "bach-js-bwv784-invention-13-guitar" true
 build "bach-js-bwv998-prelude-fugue-allegro-guitar"
 build "bach-js-bwv1007-cello-suite-1-guitar"
-build "trad-czech-sedlak-sedlak-guitar" true
 build "barrios-agustin-julia-florida-guitar" true
 build "boulanger-lili-d-un-jardin-clair-guitar" true
 build "dawson-jonty-on-winter-ground-guitar" true
+build "satie-erik-gymnopedie-1-guitar" true
 build "trad-catalan-el-noi-de-la-mare-guitar" true
+build "trad-czech-sedlak-sedlak-guitar" true
 
 exit 0
