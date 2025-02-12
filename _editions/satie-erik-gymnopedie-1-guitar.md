@@ -1,6 +1,6 @@
 ---
 layout: page
-title: __Eric Satie__ Gymnopédie No. 1 _for guitar_
+title: __Erik Satie__ Gymnopédie No. 1 _for guitar_
 name: satie-erik-gymnopedie-1-guitar
 sort_key: satie-erik-gymnopedie-1-guitar
 date: 2025-02-09
