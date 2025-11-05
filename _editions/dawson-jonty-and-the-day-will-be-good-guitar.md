@@ -10,6 +10,7 @@ work_title: And the day will be good
 instrument: Guitar
 subheading: Appreciating the times we get to spend together
 page_count: 2
+video: https://youtu.be/JQcerPlu2c4
 image:
   path: assets/edition-cards/dawson-jonty-and-the-day-will-be-good-guitar.card.jpg
   alt: >

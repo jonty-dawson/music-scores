@@ -10,6 +10,7 @@ work_title: Turning to October
 instrument: Guitar
 subheading: A waltz for the change of seasons
 page_count: 3
+video: https://youtu.be/vWVhFo2VAYk
 preview_image:
   width: 800
   height: 400

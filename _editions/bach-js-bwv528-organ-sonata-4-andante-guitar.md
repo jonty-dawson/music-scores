@@ -8,6 +8,7 @@ last_modified_at: 2024-02-07 22:00:00
 composer: Johann Sebastian Bach
 work_title: Organ Sonata No. 4 in E minor, II. Andante
 work_number: BWV 528
+arranger: Jonty Dawson
 instrument: Guitar
 page_count: 4
 subheading: My arrangement for classical guitar of this meditative slow movement.

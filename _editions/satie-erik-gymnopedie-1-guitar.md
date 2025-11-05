@@ -7,12 +7,14 @@ date: 2025-02-09
 last_modified_at:
 composer: Erik Satie
 work_title: Gymnopédie No. 1
+arranger: Jonty Dawson
 instrument: Guitar
 original_key: D major
 original_instrument: Piano
 composition_year: 1888
 page_count: 1
 subheading: A guitar arrangement played mostly in first position, in the key of C.
+video: https://youtu.be/YQi6QwiHNxQ
 image:
   path: assets/edition-cards/satie-erik-gymnopedie-1-guitar.card.jpg
   alt: >

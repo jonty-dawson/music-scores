@@ -10,6 +10,7 @@ work_title: We Reach the Waterfall
 instrument: Guitar
 subheading: A short walk on a summer's evening
 page_count: 1
+video: https://youtu.be/bq4q2n5F8eU
 preview_image:
   width: 800
   height: 400

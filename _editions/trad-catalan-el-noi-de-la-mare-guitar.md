@@ -7,9 +7,11 @@ date: 2024-12-14
 last_modified_at:
 composer: Traditional Catalan
 work_title: El Noi de la Mare
+arranger: Jonty Dawson
 instrument: Guitar
 page_count: 2
 subheading: The Catalan lullaby and Christmas song, arranged for guitar.
+video: https://youtu.be/qZRgmBpqxLs
 image:
   path: assets/edition-cards/trad-catalan-el-noi-de-la-mare-guitar.card.jpg
   alt: >

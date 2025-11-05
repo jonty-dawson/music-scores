@@ -9,6 +9,7 @@ composer: Johann Sebastian Bach
 work_title: Invention No. 13
 original_key: A minor
 work_number: BWV 784
+arranger: Jonty Dawson
 instrument: Guitar
 page_count: 2
 subheading: The two-part invention in A minor, transposed into B minor in this arrangement for classical guitar.

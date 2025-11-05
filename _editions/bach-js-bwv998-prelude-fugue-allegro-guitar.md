@@ -9,6 +9,7 @@ edition_pdf_last_modified_at: 2023-08-12
 composer: Johann Sebastian Bach
 work_title: Prelude, Fugue and Allegro
 work_number: BWV 998
+arranger: Jonty Dawson
 instrument: Guitar
 page_count: 11
 original_key: E&#x266D; major

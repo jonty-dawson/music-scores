@@ -8,6 +8,7 @@ last_modified_at: 2024-02-07 22:00:00
 composer: Johann Sebastian Bach
 work_title: Cello Suite No. 1
 work_number: BWV 1007
+arranger: Jonty Dawson
 instrument: Guitar
 page_count: 11
 original_key: G major

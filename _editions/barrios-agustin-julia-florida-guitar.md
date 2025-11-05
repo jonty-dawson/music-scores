@@ -11,6 +11,7 @@ instrument: Guitar
 subheading: An edition based on the San Salvador 1942 manuscript.
 editor: Jonty Dawson
 page_count: 2
+video: https://youtu.be/kVn6imVC6Ww
 image:
   path: assets/edition-cards/barrios-agustin-julia-florida-guitar.card.jpg
   alt: >

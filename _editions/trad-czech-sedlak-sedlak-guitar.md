@@ -7,6 +7,7 @@ date: 2023-12-30
 last_modified_at: 2024-02-07 22:00:00
 composer: Traditional Czech
 work_title: Sedlák, sedlák
+arranger: Jonty Dawson
 instrument: Guitar
 page_count: 2
 subheading: My arrangement for classical guitar of this Czech folk tune, also known as the Zither Carol.

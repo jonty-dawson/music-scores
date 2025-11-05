@@ -11,7 +11,7 @@ work_title: On winter ground
 instrument: Guitar
 subheading: A calm and uplifting piece for solo guitar.
 page_count: 3
-arranger: ""
+video: https://youtu.be/tfC6-7fMaIk
 preview_image:
   width: 800
   height: 400
@@ -20,7 +20,6 @@ preview_image:
 {% include edition_content_head.md %}
 <!--more-->
 
-<iframe name="youtube-embed" class="youtube-video" src="https://www.youtube-nocookie.com/embed/tfC6-7fMaIk?rel=0" title="{{page.title}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ---
 {% include edition_content_preview_image.md %}
 

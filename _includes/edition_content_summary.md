@@ -50,5 +50,13 @@
         data-goatcounter-title="{{page.name}}.pdf"
         data-goatcounter-referrer="edition-summary"><strong>{{ page.slug }}.pdf</strong></a></td>
     </tr>
+    {% if page.video %}
+    <tr>
+      <td>Video </td>
+        <td itemprop="video">
+          <a href="{{ page.video }}"><strong>{{ page.video }}</strong></a>
+        </td>
+      </tr>
+    {% endif %}
   </tbody>
 </table>
